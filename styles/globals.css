@@ -2,10 +2,15 @@
   font-family: "Poppins";
   src: url("../public/fonts/Poppins-Regular.ttf");
 }
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../public/fonts/Poppins-Bold.ttf");
+}
 
 html,
 body {
   font-family: "Poppins", sans-serif;
   background-color: #0E3C66;
   color: white;
+  padding: 0 calc(80rem / 16);
 }

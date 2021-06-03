@@ -1,3 +1,22 @@
+.text_container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 .hello {
   font-size: 72px;
+  font-family: "Poppins Bold", sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.iam_container {
+  flex-direction: row;
+}
+
+.iam {
+  font-family: "Poppins Bold", sans-serif;
+  font-weight: bold;
+  margin: 0;
 }
