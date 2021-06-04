@@ -1,0 +1,32 @@
+@import "./constants.scss";
+
+.link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
+  text-align: center;
+  animation: float 3s infinite;
+}
+
+.text {
+  position: absolute;
+  margin-bottom: 3rem;
+  color: $bg-color;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.jellyfish {
+  width: 80%;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(10px);
+  }
+}

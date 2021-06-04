@@ -2,7 +2,7 @@ import React from "react";
 import pinkJelly from "../public/svg/pink-jellyfish.svg";
 import purpleJelly from "../public/svg/purple-jellyfish.svg";
 import yellowJelly from "../public/svg/yellow-jellyfish.svg";
-import styles from "../styles/JellyfishBtn.module.css";
+import styles from "../styles/JellyfishBtn.module.scss";
 
 interface Props {
   href: string;
@@ -13,13 +13,35 @@ function JellyfishButton(props: Props) {
   const getJellyfish = () => {
     switch (props.color) {
       case "pink":
-        return <img src={pinkJelly} alt="About Me Button" />;
+        return (
+          <img
+            src={pinkJelly}
+            alt="About Me Button"
+            className={styles.jellyfish}
+          />
+        );
       case "purple":
-        return <img src={purpleJelly} alt="Projects Button" />;
+        return (
+          <img
+            src={purpleJelly}
+            alt="Projects Button"
+            className={styles.jellyfish}
+          />
+        );
       case "yellow":
-        return <img src={yellowJelly} alt="Contact Button" />;
+        return (
+          <img
+            src={yellowJelly}
+            alt="Contact Button"
+            className={styles.jellyfish}
+          />
+        );
       default:
-        <img src={pinkJelly} alt="About Me Button" />;
+        <img
+          src={pinkJelly}
+          alt="About Me Button"
+          className={styles.jellyfish}
+        />;
     }
   };
   const getText = () => {
@@ -38,10 +60,12 @@ function JellyfishButton(props: Props) {
   const text = getText();
 
   return (
-    <a href={props.href} className={styles.link}>
-      <span>{jellyfish}</span>
-      <p className={styles.text}>{text}</p>
-    </a>
+    <figure>
+      <a href={props.href} className={styles.link}>
+        <span>{jellyfish}</span>
+        <p className={styles.text}>{text}</p>
+      </a>
+    </figure>
   );
 }
 

@@ -1,0 +1,31 @@
+// Fonts
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../public/fonts/Poppins-Bold.ttf");
+}
+
+// Colors
+
+$font-pink: #fba1d4;
+$font-purple: #e2b4ff;
+$font-green: #ade989;
+$font-yellow: #ffe595;
+$bg-color: #0e3c66;
+
+// Breakpoints
+
+$width-xsm-max: 390px;
+$width-sm-max: 560px;
+$width-md-max: 900px;
+$width-lg-max: 1435px;
+
+@mixin phone {
+  @media (max-width: $width-sm-max) {
+    @content;
+  }
+}

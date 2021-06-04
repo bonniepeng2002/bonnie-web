@@ -1,5 +1,7 @@
+@import "./constants.scss";
+
 .landing {
-  display: flex;
+  /* display: flex; */
 }
 
 .text_container {
@@ -26,4 +28,13 @@
   font-weight: bold;
   margin: 0;
   font-size: 48px;
+}
+
+.nav {
+  &-1 {
+  }
+  &-2 {
+  }
+  &-3 {
+  }
 }

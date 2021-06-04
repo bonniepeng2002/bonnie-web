@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "../styles/Landing.module.css";
+import styles from "../styles/Landing.module.scss";
 import Typist from "react-typist";
 import JellyfishButton from "../components/jellyfishBtn";
 
@@ -70,9 +70,15 @@ const Landing = () => {
           <TextLoop />
         </span>
       </div>
-      <JellyfishButton href="#about" color="pink" />
-      <JellyfishButton href="#projects" color="purple" />
-      <JellyfishButton href="#contact" color="yellow" />
+      <span className="nav-1">
+        <JellyfishButton href="#about" color="pink" />
+      </span>
+      <span className="nav-2">
+        <JellyfishButton href="#projects" color="purple" />
+      </span>
+      <span className="nav-3">
+        <JellyfishButton href="#contact" color="yellow" />
+      </span>
     </section>
   );
 };
