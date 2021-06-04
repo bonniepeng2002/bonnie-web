@@ -2,6 +2,8 @@
 
 html {
   padding: 0 0 0 calc(80rem / 16);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -22,3 +24,12 @@ body {
   max-width: 100%;
   height: auto;
 } */
+
+.undraggable {
+  // do not allow user to select image
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

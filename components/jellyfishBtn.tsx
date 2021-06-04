@@ -17,7 +17,7 @@ function JellyfishButton(props: Props) {
           <img
             src={pinkJelly}
             alt="About Me Button"
-            className={styles.jellyfish}
+            className={styles.jellyfish + " undraggable"}
           />
         );
       case "purple":
@@ -25,7 +25,7 @@ function JellyfishButton(props: Props) {
           <img
             src={purpleJelly}
             alt="Projects Button"
-            className={styles.jellyfish}
+            className={styles.jellyfish + " undraggable"}
           />
         );
       case "yellow":
@@ -33,14 +33,14 @@ function JellyfishButton(props: Props) {
           <img
             src={yellowJelly}
             alt="Contact Button"
-            className={styles.jellyfish}
+            className={styles.jellyfish + " undraggable"}
           />
         );
       default:
         <img
           src={pinkJelly}
           alt="About Me Button"
-          className={styles.jellyfish}
+          className={styles.jellyfish + " undraggable"}
         />;
     }
   };

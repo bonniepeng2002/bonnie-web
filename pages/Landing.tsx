@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/Landing.module.scss";
 import Typist from "react-typist";
 import JellyfishButton from "../components/jellyfishBtn";
+import bgCircle from "../public/svg/bg-circle.svg";
 
 const TextLoop = () => {
   const messages = [
@@ -71,6 +72,33 @@ const Landing = () => {
       <span className={styles.nav3}>
         <JellyfishButton href="#contact" color="yellow" />
       </span>
+
+      <img
+        src={bgCircle}
+        alt=""
+        style={{ position: "absolute", top: -425, left: -200, zIndex: 1 }}
+        className="undraggable"
+      />
+      <img
+        src={bgCircle}
+        alt=""
+        width={800}
+        style={{ position: "absolute", top: -300, right: -100, zIndex: 1 }}
+        className="undraggable"
+      />
+      <img
+        src={bgCircle}
+        alt=""
+        style={{ position: "absolute", bottom: -350, left: -50, zIndex: 1 }}
+        className="undraggable"
+      />
+      <img
+        src={bgCircle}
+        alt=""
+        width={375}
+        style={{ position: "absolute", bottom: -200, left: 500, zIndex: 1 }}
+        className="undraggable"
+      />
     </section>
   );
 };
