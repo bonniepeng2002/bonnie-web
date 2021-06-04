@@ -19,13 +19,24 @@ $bg-color: #0e3c66;
 
 // Breakpoints
 
-$width-xsm-max: 390px;
-$width-sm-max: 560px;
-$width-md-max: 900px;
-$width-lg-max: 1435px;
+$width-sm-max: 768px;
+$width-md-max: 1800px;
+$width-lg-max: 2400px;
 
 @mixin phone {
   @media (max-width: $width-sm-max) {
     @content;
   }
 }
+
+@mixin laptop {
+  @media (max-width: $width-md-max) {
+    @content;
+  }
+}
+
+@mixin desktop {
+    @media (max-width: $width-lg-max) {
+      @content;
+    }
+  }

@@ -37,18 +37,10 @@ const TextLoop = () => {
           onTypingDone={() => {
             repeatText();
           }}
-          stdTypingDelay={20}
+          stdTypingDelay={1}
           className="typist"
         >
-          <h2
-            style={{
-              margin: 0,
-              marginLeft: 18,
-              color: color,
-              letterSpacing: 1.5,
-              fontSize: 48,
-            }}
-          >
+          <h2 style={{ color: color }} className={styles.message}>
             {message}
           </h2>
           <Typist.Backspace count={message.length} delay={700} />
@@ -70,13 +62,13 @@ const Landing = () => {
           <TextLoop />
         </span>
       </div>
-      <span className="nav-1">
+      <span className={styles.nav1}>
         <JellyfishButton href="#about" color="pink" />
       </span>
-      <span className="nav-2">
+      <span className={styles.nav2}>
         <JellyfishButton href="#projects" color="purple" />
       </span>
-      <span className="nav-3">
+      <span className={styles.nav3}>
         <JellyfishButton href="#contact" color="yellow" />
       </span>
     </section>

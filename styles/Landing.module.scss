@@ -1,14 +1,16 @@
 @import "./constants.scss";
 
 .landing {
-  /* display: flex; */
+  position: relative; // for absolute positioning of jellyfish
+  height: 90vh;
 }
 
 .text_container {
+  position: absolute; // for it to be independent of jellyfish
   display: flex;
   flex-direction: column;
   letter-spacing: 1.5;
-  justify-content: center;
+  top: 25%;
 }
 
 .hello {
@@ -16,25 +18,66 @@
   font-family: "Poppins Bold", sans-serif;
   font-weight: bold;
   margin-bottom: 0;
+  line-height: 5rem;
+  @include desktop {
+    line-height: 1.5;
+  }
 }
 
 .iam_container {
   display: flex;
   flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  > * {
+    margin: 0;
+  }
+  @include desktop {
+    font-size: calc(32rem / 16);
+  }
+  @include laptop {
+    font-size: calc(24rem / 16);
+  }
 }
 
-.iam {
-  font-family: "Poppins Bold", sans-serif;
-  font-weight: bold;
+.message {
   margin: 0;
-  font-size: 48px;
+  margin-left: 18px;
+  letter-spacing: 1.5px;
 }
 
 .nav {
-  &-1 {
+  @include desktop {
+    &1 {
+      position: absolute;
+      left: 52%;
+      top: 7%;
+    }
+    &2 {
+      position: absolute;
+      left: 75%;
+      top: 32%;
+    }
+    &3 {
+      position: absolute;
+      left: 60%;
+      top: 65%;
+    }
   }
-  &-2 {
-  }
-  &-3 {
+  @include laptop {
+    &1 {
+      position: absolute;
+      top: 7%;
+      left: 52%;
+    }
+    &2 {
+      position: absolute;
+      top: 30%;
+      left: 75%;
+    }
+    &3 {
+      position: absolute;
+      top: 65%;
+      left: 63%;
+    }
   }
 }

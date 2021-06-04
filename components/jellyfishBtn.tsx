@@ -58,10 +58,11 @@ function JellyfishButton(props: Props) {
   };
   const jellyfish = getJellyfish();
   const text = getText();
+  const style = text === "Projects" ? " " + styles.delay : "";
 
   return (
-    <figure>
-      <a href={props.href} className={styles.link}>
+    <figure className={styles.figure}>
+      <a href={props.href} className={styles.link + style}>
         <span>{jellyfish}</span>
         <p className={styles.text}>{text}</p>
       </a>

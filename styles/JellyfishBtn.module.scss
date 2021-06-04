@@ -1,7 +1,12 @@
 @import "./constants.scss";
 
+.figure {
+  height: fit-content;
+  width: fit-content;
+}
+
 .link {
-  position: relative;
+  position: relative; // to position the text in middle of jellyfish
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,21 +17,33 @@
   animation: float 3s infinite;
 }
 
+.jellyfish {
+  @include desktop {
+    width: 100%;
+  }
+  @include laptop {
+    width: 85%;
+  }
+}
+
+.delay {
+  animation: float 3s 1s infinite;
+}
+
 .text {
-  position: absolute;
+  position: absolute; // to position the text in middle of jellyfish
   margin-bottom: 3rem;
   color: $bg-color;
   font-size: 1.1rem;
   font-weight: bold;
   letter-spacing: 1px;
-}
-
-.jellyfish {
-  width: 80%;
+  @include phone {
+    display: none;
+  }
 }
 
 @keyframes float {
   50% {
-    transform: translateY(10px);
+    transform: translateY(13px);
   }
 }
