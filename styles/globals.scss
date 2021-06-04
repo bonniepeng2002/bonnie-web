@@ -19,12 +19,6 @@ body {
   color: $bg-color;
 }
 
-/* img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-
 .undraggable {
   // do not allow user to select image
   user-select: none;

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Header.module.scss";
+import highlight from "../public/svg/highlight.svg";
 
 interface Props {
   title: string;
@@ -7,7 +8,17 @@ interface Props {
 }
 
 function Header(props: Props) {
-  return <h1>{props.title}</h1>;
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.header}>{props.title}</h1>
+      <img
+        src={highlight}
+        alt=""
+        style={{ backgroundColor: props.color }}
+        className={styles.highlight + " undraggable"}
+      />
+    </div>
+  );
 }
 
 export default Header;

@@ -16,6 +16,9 @@ $font-purple: #e2b4ff;
 $font-green: #ade989;
 $font-yellow: #ffe595;
 $bg-color: #0e3c66;
+$dark-pink: #ed76b7;
+$dark-purple: #be63f6;
+$dark-yellow: #ffbc58;
 
 // Breakpoints
 
@@ -36,7 +39,13 @@ $width-lg-max: 2400px;
 }
 
 @mixin desktop {
-    @media (max-width: $width-lg-max) {
-      @content;
-    }
+  @media (max-width: $width-lg-max) {
+    @content;
   }
+}
+
+// Indices
+
+$top-level: 2;
+$mid-level: 1;
+$bot-level: -1;

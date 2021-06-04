@@ -1,1 +1,19 @@
 @import "./constants.scss";
+
+.container {
+  position: relative;
+}
+
+.header {
+  z-index: $top-level;
+  font-size: calc(32rem / 16);
+  margin-left: 0.2rem;
+}
+
+.highlight {
+  position: absolute;
+  z-index: $bot-level;
+  opacity: 0.9;
+  bottom: 13px;
+  left: 0;
+}

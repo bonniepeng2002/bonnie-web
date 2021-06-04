@@ -1,6 +1,6 @@
 @import "./constants.scss";
 
-.figure {
+.container {
   height: fit-content;
   width: fit-content;
 }
@@ -12,6 +12,7 @@
   align-items: center;
   height: fit-content;
   width: fit-content;
+  z-index: $top-level;
   text-decoration: none;
   text-align: center;
   animation: float 3s infinite;
