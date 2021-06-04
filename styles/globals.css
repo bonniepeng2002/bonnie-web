@@ -7,10 +7,23 @@
   src: url("../public/fonts/Poppins-Bold.ttf");
 }
 
+* {
+  --font-pink: #fba1d4;
+  --font-purple: #e2b4ff;
+  --font-green: #ade989;
+  --font-yellow: #ffe595;
+  --bg-color: #0e3c66;
+}
 html,
 body {
+  height: 100%;
   font-family: "Poppins", sans-serif;
-  background-color: #0E3C66;
+  background-color: var(--bg-color);
   color: white;
   padding: 0 calc(80rem / 16);
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.966);
+  color: var(--bg-color);
 }

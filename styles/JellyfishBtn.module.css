@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: calc(22rem / 16);
+}
