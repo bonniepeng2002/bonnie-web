@@ -8,14 +8,23 @@
 .link {
   position: relative; // to position the text in middle of jellyfish
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: fit-content;
   width: fit-content;
   z-index: $top-level;
   text-decoration: none;
   text-align: center;
   animation: float 3s infinite;
+}
+
+.hover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.15s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .jellyfish {
@@ -28,7 +37,7 @@
 }
 
 .delay {
-  animation: float 3s 1s infinite;
+  animation: float 3s 1.2s infinite;
 }
 
 .text {

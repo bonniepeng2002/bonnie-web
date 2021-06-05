@@ -2,11 +2,15 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url("../public/fonts/Poppins-Regular.ttf");
+  src: url("../public/fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins Bold";
-  src: url("../public/fonts/Poppins-Bold.ttf");
+  src: url("../public/fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../public/fonts/Lato/Lato-Regular.ttf");
 }
 
 // Colors
@@ -48,4 +52,5 @@ $width-lg-max: 2400px;
 
 $top-level: 2;
 $mid-level: 1;
+$low-level: 0;
 $bot-level: -1;

@@ -76,27 +76,27 @@ const Landing = () => {
       <img
         src={bgCircle}
         alt=""
-        style={{ position: "absolute", top: -425, left: -200, zIndex: 1 }}
+        style={{ position: "absolute", top: -425, left: -200, zIndex: 0 }}
         className="undraggable"
       />
       <img
         src={bgCircle}
         alt=""
         width={800}
-        style={{ position: "absolute", top: -300, right: -100, zIndex: 1 }}
+        style={{ position: "absolute", top: -300, right: -100, zIndex: 0 }}
         className="undraggable"
       />
       <img
         src={bgCircle}
         alt=""
-        style={{ position: "absolute", bottom: -350, left: -50, zIndex: 1 }}
+        style={{ position: "absolute", bottom: -350, left: -50, zIndex: 0 }}
         className="undraggable"
       />
       <img
         src={bgCircle}
         alt=""
         width={375}
-        style={{ position: "absolute", bottom: -200, left: 500, zIndex: 1 }}
+        style={{ position: "absolute", bottom: -200, left: 500, zIndex: 0 }}
         className="undraggable"
       />
     </section>

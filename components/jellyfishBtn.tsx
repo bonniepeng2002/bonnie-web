@@ -63,8 +63,10 @@ function JellyfishButton(props: Props) {
   return (
     <figure className={styles.container}>
       <a href={props.href} className={styles.link + style}>
-        <span>{jellyfish}</span>
-        <p className={styles.text}>{text}</p>
+        <div className={styles.hover}>
+          <span>{jellyfish}</span>
+          <p className={styles.text}>{text}</p>
+        </div>
       </a>
     </figure>
   );

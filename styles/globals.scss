@@ -14,6 +14,14 @@ body {
   color: white;
 }
 
+section {
+  padding-top: 1rem;
+}
+
+#landing {
+  padding-top: 0;
+}
+
 ::selection {
   background: rgba(255, 255, 255, 0.904);
   color: $bg-color;
