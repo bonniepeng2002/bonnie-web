@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import styles from "../styles/About.module.scss";
 import me from "../public/me.jpg";
+import FishExp from "../components/fishExperiences";
 
 export default function About() {
   return (
@@ -22,9 +23,15 @@ export default function About() {
           to chug after COVID is over.
         </p>
       </div>
-      <div className={styles.image_container}>
-        <img src={me} alt="Bonnie Peng" className={styles.img}></img>
-      </div>
+
+      <img src={me} alt="Bonnie Peng" className={styles.img}></img>
+      <FishExp
+        experiences={[
+          "Logistics @ TechNova",
+          "Software Engineer @ Ampli",
+          "Frontend @ UW CSC",
+        ]}
+      />
     </section>
   );
 }

@@ -1,7 +1,15 @@
 @import "./constants.scss";
 
 html {
-  padding: 0 0 0 calc(80rem / 16);
+  @include desktop {
+    padding: 0 0 0 calc(130rem / 16);
+  }
+  @include laptop {
+    padding: 0 0 0 calc(80rem / 16);
+  }
+  @include phone {
+    padding: 1rem;
+  }
   overflow-x: hidden;
   scroll-behavior: smooth;
 }

@@ -1,0 +1,77 @@
+@import "./constants.scss";
+
+.fish_container {
+  position: relative;
+  color: $bg-color;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.125rem;
+}
+
+.smFish {
+  &1 {
+  }
+
+  &2 {
+  }
+
+  &3 {
+  }
+
+  &4 {
+  }
+
+  &5 {
+  }
+}
+
+.exp {
+  &1 {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+  }
+  &2 {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+  }
+  &3 {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+  }
+}
+
+.pinkFish {
+}
+
+.yellowFish {
+}
+
+.blueFish {
+}
+
+.text {
+  &1 {
+    width: calc(120rem / 16);
+    position: absolute;
+    top: 37%;
+    left: 23%;
+    transform: rotate(11.91deg);
+  }
+  &2 {
+    width: calc(100rem / 16);
+    position: absolute;
+    top: 29%;
+    left: 33%;
+    transform: rotate(-12.27deg);
+  }
+  &3 {
+    width: calc(80rem / 16);
+    position: absolute;
+    top: 37%;
+    left: 34%;
+    transform: rotate(7deg);
+  }
+}
