@@ -18,7 +18,6 @@ function FishExp(props: Props) {
       <img className={styles.smFish2 + " undraggable"} src={SmallFish} alt="" />
       <img className={styles.smFish3 + " undraggable"} src={SmallFish} alt="" />
       <img className={styles.smFish4 + " undraggable"} src={SmallFish} alt="" />
-      <img className={styles.smFish5 + " undraggable"} src={SmallFish} alt="" />
 
       <div className={styles.exp1}>
         <img

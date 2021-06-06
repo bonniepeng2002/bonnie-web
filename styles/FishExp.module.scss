@@ -1,6 +1,8 @@
 @import "./constants.scss";
 
 .fish_container {
+  display: flex;
+  flex-direction: row;
   position: relative;
   color: $bg-color;
   text-align: center;
@@ -10,18 +12,30 @@
 
 .smFish {
   &1 {
+    position: absolute;
+    left: -5rem;
+    bottom: 0;
+    transform: rotate(-11deg);
   }
 
   &2 {
+    position: absolute;
+    left: 6rem;
+    bottom: -3rem;
   }
 
   &3 {
+    position: absolute;
+    left: 16rem;
+    bottom: 30%;
+    transform: rotate(14deg);
   }
 
   &4 {
-  }
-
-  &5 {
+    position: absolute;
+    left: 30rem;
+    bottom: 1rem;
+    transform: rotate(-18deg);
   }
 }
 
@@ -30,11 +44,15 @@
     position: relative;
     height: fit-content;
     width: fit-content;
+    right: 5.5rem;
+    bottom: -0.5rem;
   }
   &2 {
     position: relative;
     height: fit-content;
     width: fit-content;
+    right: 3rem;
+    bottom: -4rem;
   }
   &3 {
     position: relative;
@@ -43,29 +61,20 @@
   }
 }
 
-.pinkFish {
-}
-
-.yellowFish {
-}
-
-.blueFish {
-}
-
 .text {
   &1 {
     width: calc(120rem / 16);
     position: absolute;
     top: 37%;
     left: 23%;
-    transform: rotate(11.91deg);
+    transform: rotate(12deg);
   }
   &2 {
     width: calc(100rem / 16);
     position: absolute;
     top: 29%;
     left: 33%;
-    transform: rotate(-12.27deg);
+    transform: rotate(-12deg);
   }
   &3 {
     width: calc(80rem / 16);
