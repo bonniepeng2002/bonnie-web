@@ -18,6 +18,7 @@
   > p {
     margin-bottom: 2rem;
     font-size: calc(18rem / 16);
+    line-height: 1.6;
   }
 }
 
@@ -36,6 +37,6 @@
 
 .fish_container {
   position: absolute;
-  bottom: calc(-80rem / 16);
+  bottom: calc(-75rem / 16);
   right: calc(95rem / 16);
 }
