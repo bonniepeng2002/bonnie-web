@@ -8,7 +8,7 @@ import BlueFish from "../public/svg/blue-fish.svg";
 interface Props {
   experiences: string[];
 }
-function FishExp(props: Props) {
+export default function FishExp(props: Props) {
   const exp1 = props.experiences[0];
   const exp2 = props.experiences[1];
   const exp3 = props.experiences[2];
@@ -48,5 +48,3 @@ function FishExp(props: Props) {
     </div>
   );
 }
-
-export default FishExp;

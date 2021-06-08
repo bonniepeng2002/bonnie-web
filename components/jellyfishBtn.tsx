@@ -9,7 +9,7 @@ interface Props {
   color: string;
 }
 
-function JellyfishButton(props: Props) {
+export default function JellyfishButton(props: Props) {
   const getJellyfish = () => {
     switch (props.color) {
       case "pink":
@@ -71,5 +71,3 @@ function JellyfishButton(props: Props) {
     </figure>
   );
 }
-
-export default JellyfishButton;

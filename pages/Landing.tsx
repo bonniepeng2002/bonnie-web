@@ -53,7 +53,7 @@ const TextLoop = () => {
   );
 };
 
-const Landing = () => {
+export default function Landing() {
   return (
     <section id="landing" className={styles.landing}>
       <div className={styles.text_container}>
@@ -101,6 +101,4 @@ const Landing = () => {
       />
     </section>
   );
-};
-
-export default Landing;
+}

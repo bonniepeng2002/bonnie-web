@@ -1,0 +1,50 @@
+@import "./constants.scss";
+
+.container {
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: calc(17rem / 16) calc(30rem / 16);
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  // reset button styling
+  padding: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+}
+
+.chevron {
+  transition: all 0.4s ease-in-out;
+  margin-left: calc(35rem / 16);
+}
+
+.expanded_chevron {
+  transform: rotate(180deg);
+}
+
+.details {
+}
+
+.tools {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.github {
+  float: right;
+}

@@ -1,12 +1,6 @@
 @import "./constants.scss";
 
 html {
-  @include desktop {
-    padding: 0 0 0 calc(130rem / 16);
-  }
-  @include laptop {
-    padding: 0 0 0 calc(80rem / 16);
-  }
   @include phone {
     padding: 1rem;
   }
@@ -24,10 +18,18 @@ body {
 }
 
 section {
-  padding-top: 1rem;
+  padding-top: 2rem;
+  @include desktop {
+    margin: 1.5rem calc(130rem / 16) 0 calc(130rem / 16);
+  }
+  @include laptop {
+    margin: 1.5rem calc(80rem / 16) 0 calc(80rem / 16);
+  }
 }
 
 #landing {
+  margin-right: 0;
+  margin-top: 0;
   padding-top: 0;
 }
 

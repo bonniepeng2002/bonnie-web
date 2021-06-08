@@ -1,7 +1,6 @@
 @import "./constants.scss";
 
 .about {
-  height: auto;
   margin-bottom: 7rem;
 }
 
@@ -30,7 +29,7 @@
 .img {
   width: calc(330rem / 16);
   height: calc(400rem / 16);
-  margin: 2rem 7rem 0 7rem;
+  margin: 2rem 3rem 0 7rem;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -38,5 +37,5 @@
 .fish_container {
   position: absolute;
   bottom: calc(-75rem / 16);
-  right: calc(95rem / 16);
+  right: 0;
 }
