@@ -2,12 +2,19 @@
 ## Version 2.0 - WIP - 40% complete
 
 ### TODO:
+- [x] landing Figma draft
+- [x] about Figma draft
+- [x] contact Figma draft
+- [x] mobile landing Figma draft
+- [x] mobile about Figma draft
+- [x] mobile contact Figma draft
 - [x] landing header
 - [x] landing buttons
 - [x] animate buttons
 - [x] about text
 - [x] about graphics
 - [x] animate about graphic
+- [x] projects accordion
 - [ ] animate projects accordion
 - [ ] populate projects accordion with info
 - [ ] contact section
