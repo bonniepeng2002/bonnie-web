@@ -28,9 +28,9 @@ const projects = [
   },
   {
     title: "This site!",
-    tools: ["Typescript", "React", "Sass", "Next", "Figma"],
+    tools: ["Typescript", "React", "Scss", "Next", "Figma"],
     desc: "",
-    github: "",
+    github: "https://github.com/bonniepeng2002/bonniepeng2002.github.io",
     color: colors[2],
   },
   {

@@ -16,7 +16,7 @@ export default function Accordion(props: Props) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ backgroundColor: props.color }}>
       <button onClick={() => setExpanded(!expanded)} className={styles.summary}>
         <h1 className={styles.title}>{props.title}</h1>
         <img
