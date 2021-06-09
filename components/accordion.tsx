@@ -22,22 +22,17 @@ export default function Accordion(props: Props) {
         <img
           src={chevron}
           alt="expand card"
-          className={
-            styles.chevron +
-            (expanded ? " " + styles.expanded_chevron : "") +
-            " undraggable"
-          }
+          className={styles.chevron + " undraggable"}
+          aria-expanded={expanded}
         />
       </button>
-      {expanded && (
-        <div className={styles.details}>
-          <h4 className={styles.tools}>{props.tools.join(", ")}</h4>
-          <p>{props.children}</p>
-          <a className={styles.github} href={props.github} target="_blank">
-            <img src={github} alt="go to Github repo" className="undraggable" />
-          </a>
-        </div>
-      )}
+      <div className={styles.details} aria-expanded={!expanded}>
+        <h4 className={styles.tools}>{props.tools.join(", ")}</h4>
+        <p className={styles.desc}>{props.children}</p>
+        <a className={styles.github} href={props.github} target="_blank">
+          <img src={github} alt="go to Github repo" className="undraggable" />
+        </a>
+      </div>
     </div>
   );
 }

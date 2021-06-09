@@ -33,17 +33,29 @@
   margin-left: calc(35rem / 16);
 }
 
-.expanded_chevron {
+.chevron[aria-expanded="true"] {
   transform: rotate(180deg);
 }
 
 .details {
+  overflow: hidden;
+  max-height: calc(1000rem / 16);
+  transition: max-height 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.details[aria-expanded="true"] {
+  max-height: 0px;
+  transition: max-height 1s cubic-bezier(0, 1, 0, 1);
 }
 
 .tools {
   margin-top: 0.5rem;
   font-family: "Lato";
   font-style: italic;
+}
+
+.desc {
+  overflow-wrap: normal;
 }
 
 .github {
