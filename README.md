@@ -4,9 +4,11 @@
 ### TODO:
 - [x] landing Figma draft
 - [x] about Figma draft
+- [x] projects Figma draft
 - [x] contact Figma draft
 - [x] mobile landing Figma draft
 - [x] mobile about Figma draft
+- [x] mobile projects Figma draft
 - [x] mobile contact Figma draft
 - [x] landing header
 - [x] landing buttons
