@@ -1,5 +1,5 @@
 # The Personal Site™
-## Version 2.0 - WIP - 40% complete
+## Version 2.0 - WIP - 50% complete
 
 ### TODO:
 - [x] landing Figma draft
