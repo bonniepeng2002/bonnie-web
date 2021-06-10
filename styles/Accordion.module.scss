@@ -2,26 +2,23 @@
 
 .container {
   width: 100%;
-  border: 3px solid white;
-  box-sizing: border-box;
-  border-radius: 15px;
   padding: calc(15rem / 16) calc(25rem / 16);
+  border: 3px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  // reset button styling
+  color: inherit;
+  font: inherit;
+  text-align: left;
 }
 
 .summary {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  position: relative;
-  // reset button styling
-  padding: 0;
-  background: none;
-  border: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
+  letter-spacing: 0.05rem;
 }
 
 .title {
@@ -29,8 +26,8 @@
 }
 
 .chevron {
-  transition: all 0.2s linear;
   margin-left: calc(35rem / 16);
+  transition: all 0.25s linear;
 }
 
 .chevron[aria-expanded="true"] {
@@ -40,18 +37,19 @@
 .details {
   overflow: hidden;
   max-height: calc(1000rem / 16);
-  transition: max-height 1s cubic-bezier(1, 0, 0, 1);
+  transition: max-height 2s ease;
 }
 
 .details[aria-expanded="true"] {
   max-height: 0px;
-  transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+  transition: max-height 0.75s cubic-bezier(0, 1, 0, 1);
 }
 
 .tools {
   margin-top: 0.5rem;
   font-family: "Lato";
   font-style: italic;
+  letter-spacing: 0.075rem;
 }
 
 .desc {

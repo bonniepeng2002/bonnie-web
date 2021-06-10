@@ -16,8 +16,12 @@ export default function Accordion(props: Props) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className={styles.container} style={{ backgroundColor: props.color }}>
-      <button onClick={() => setExpanded(!expanded)} className={styles.summary}>
+    <button
+      onClick={() => setExpanded(!expanded)}
+      className={styles.container}
+      style={{ backgroundColor: props.color }}
+    >
+      <div className={styles.summary}>
         <h1 className={styles.title}>{props.title}</h1>
         <img
           src={chevron}
@@ -25,7 +29,7 @@ export default function Accordion(props: Props) {
           className={styles.chevron + " undraggable"}
           aria-expanded={expanded}
         />
-      </button>
+      </div>
       <div className={styles.details} aria-expanded={!expanded}>
         <h4 className={styles.tools}>{props.tools.join(", ")}</h4>
         <p className={styles.desc}>{props.children}</p>
@@ -33,6 +37,6 @@ export default function Accordion(props: Props) {
           <img src={github} alt="go to Github repo" className="undraggable" />
         </a>
       </div>
-    </div>
+    </button>
   );
 }
