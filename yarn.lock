@@ -2037,6 +2037,11 @@
     "vm-browserify" "1.1.2"
     "watchpack" "2.1.1"
 
+"node-bin-setup@^1.0.0":
+  "integrity" "sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q=="
+  "resolved" "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz"
+  "version" "1.0.6"
+
 "node-fetch@2.6.1":
   "integrity" "sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw=="
   "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
@@ -2120,6 +2125,13 @@
     "sass-graph" "2.2.5"
     "stdout-stream" "^1.4.0"
     "true-case-path" "^1.0.2"
+
+"node@^16.1.0":
+  "integrity" "sha512-VCdVc3JI7WrGFwaentjwZsL936Gbzvi4k4y8pqWvml/7JM98oVY9mCv/WvzpPHr2NyZHXCngTiIa0Y26xufNSA=="
+  "resolved" "https://registry.npmjs.org/node/-/node-16.1.0.tgz"
+  "version" "16.1.0"
+  dependencies:
+    "node-bin-setup" "^1.0.0"
 
 "nopt@^5.0.0":
   "integrity" "sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ=="
@@ -2515,7 +2527,7 @@
   dependencies:
     "prop-types" "^15.5.10"
 
-"react@^0.14 || ^15.0 || ^16.0", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
+"react@^0.14 || ^15.0 || ^16.0", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@^17.0.2", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -3186,6 +3198,11 @@
   "integrity" "sha1-WIeWa7WCpFA6QetST301ARgVphM="
   "resolved" "https://registry.npmjs.org/trim-newlines/-/trim-newlines-1.0.0.tgz"
   "version" "1.0.0"
+
+"trim-newlines@^4.0.1":
+  "integrity" "sha512-5n5GIW0uEbjCB2PO6OoaG11rscJmLOLw12ZG9e0vBKNMToDJ2n1+AkUhJpGO2bLj3jXKa/gYTGVmilX5CCxqmA=="
+  "resolved" "https://registry.npmjs.org/trim-newlines/-/trim-newlines-4.0.1.tgz"
+  "version" "4.0.1"
 
 "true-case-path@^1.0.2":
   "integrity" "sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew=="
