@@ -17,7 +17,7 @@
 - [x] about graphics
 - [x] animate about graphic
 - [x] projects accordion
-- [ ] animate projects accordion
+- [x] animate projects accordion
 - [ ] populate projects accordion with info
 - [ ] contact section
 - [ ] embed resume
