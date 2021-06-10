@@ -3,6 +3,7 @@ import Header from "../components/header";
 import styles from "../styles/About.module.scss";
 import me from "../public/me.jpg";
 import FishExp from "../components/fishExperiences";
+import { p1, p2, experiences } from "./content/about";
 
 export default function About() {
   return (
@@ -11,29 +12,14 @@ export default function About() {
       <div className={styles.content}>
         <div className={styles.text_container}>
           <h2 className={styles.subtitle}>Hey, you found me! 👋</h2>
-          <p>
-            Nice to meet you, my name is Bonnie and I’m a Computer Science
-            student at the University of Waterloo! I’m interested in creating
-            technologies that puts underrepresented communities first, with the
-            hopes of achieving a more inclusive digital world.
-          </p>
+          <p>{p1}</p>
           <h2 className={styles.subtitle}>Outside of work,</h2>
-          <p>
-            I love bouncing around the Halifax waterfront with my camera, baking
-            (cake for breakfast anyone??), and dreaming of all the boba I’m
-            going to chug after COVID is over.
-          </p>
+          <p>{p2}</p>
         </div>
 
         <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
         <div className={styles.fish_container}>
-          <FishExp
-            experiences={[
-              "Logistics @ TechNova",
-              "Software Engineer @ Ampli",
-              "Frontend @ UW CSC",
-            ]}
-          />
+          <FishExp experiences={experiences} />
         </div>
       </div>
     </section>
