@@ -37,13 +37,13 @@ $width-lg-max: 2400px;
 }
 
 @mixin laptop {
-  @media (max-width: $width-md-max) {
+  @media (max-width: $width-md-max) and (min-width: $width-sm-max) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media (max-width: $width-lg-max) {
+  @media (max-width: $width-lg-max) and (min-width: $width-md-max) {
     @content;
   }
 }

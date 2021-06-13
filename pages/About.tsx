@@ -18,9 +18,9 @@ export default function About() {
         </div>
 
         <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
-        <div className={styles.fish_container}>
-          <FishExp experiences={experiences} />
-        </div>
+      </div>
+      <div className={styles.fish_container}>
+        <FishExp experiences={experiences} />
       </div>
     </section>
   );
