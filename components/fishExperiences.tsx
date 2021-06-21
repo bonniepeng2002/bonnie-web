@@ -5,13 +5,7 @@ import PinkFish from "../public/svg/pink-fish.svg";
 import YellowFish from "../public/svg/yellow-fish.svg";
 import BlueFish from "../public/svg/blue-fish.svg";
 
-interface Props {
-  experiences: string[];
-}
-export default function FishExp(props: Props) {
-  const exp1 = props.experiences[0];
-  const exp2 = props.experiences[1];
-  const exp3 = props.experiences[2];
+export default function FishExp() {
   return (
     <div className={styles.fish_container}>
       <img className={styles.smFish1 + " undraggable"} src={SmallFish} alt="" />
@@ -25,7 +19,6 @@ export default function FishExp(props: Props) {
           src={PinkFish}
           alt=""
         />
-        <p className={styles.text1}>{exp1}</p>
       </div>
 
       <div className={styles.exp2}>
@@ -34,7 +27,6 @@ export default function FishExp(props: Props) {
           src={YellowFish}
           alt=""
         />
-        <p className={styles.text2}>{exp2}</p>
       </div>
 
       <div className={styles.exp3}>
@@ -43,7 +35,6 @@ export default function FishExp(props: Props) {
           src={BlueFish}
           alt=""
         />
-        <p className={styles.text3}>{exp3}</p>
       </div>
     </div>
   );

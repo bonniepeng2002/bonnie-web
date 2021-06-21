@@ -9,8 +9,20 @@ const colors = [
 export const projects = [
   {
     title: "Bloomi",
-    tools: ["Java", "Android SDK", "Firebase"],
-    desc: "",
+    tools: ["Java", "XML", "Android SDK", "Firebase"],
+    desc: (
+      <p>
+        Ever forgotten to water your leafy friends? Bloomi is an Android app
+        made to remind you of when to care for your plants! Generating growth
+        history graphs and delivering mobile notifications, Bloomi is the
+        largest project I had ever taken on by myself. With 6000+ lines of Java
+        and XML written over the winter break of my first year, I learned more
+        about Object Oriented Programming, databases, multithreading and UX than
+        I prepared myself for! This project was a small vision that grew and
+        grew with every little success, and I'm proud to say that creating
+        Bloomi gave me confidence of my place in tech.
+      </p>
+    ),
     github: "https://github.com/bonniepeng2002/Bloomi",
     color: colors[0],
   },

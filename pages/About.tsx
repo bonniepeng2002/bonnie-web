@@ -3,7 +3,7 @@ import Header from "../components/header";
 import styles from "../styles/About.module.scss";
 import me from "../public/me.jpg";
 import FishExp from "../components/fishExperiences";
-import { p1, p2, experiences } from "./content/about";
+import { p1, p2 } from "./content/about";
 
 export default function About() {
   return (
@@ -12,15 +12,16 @@ export default function About() {
       <div className={styles.content}>
         <div className={styles.text_container}>
           <h2 className={styles.subtitle}>Hey, you found me! 👋</h2>
-          <p>{p1}</p>
+          {p1}
           <h2 className={styles.subtitle}>Outside of work,</h2>
-          <p>{p2}</p>
+          {p2}
         </div>
-
-        <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
-      </div>
-      <div className={styles.fish_container}>
-        <FishExp experiences={experiences} />
+        <div className={styles.img_container}>
+          <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
+          <div className={styles.fish_container}>
+            <FishExp />
+          </div>
+        </div>
       </div>
     </section>
   );
