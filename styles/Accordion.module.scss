@@ -2,7 +2,7 @@
 
 .container {
   width: 100%;
-  padding: calc(15rem / 16) calc(25rem / 16);
+  padding: calc(19rem / 16) calc(26rem / 16);
   border: 3px solid white;
   border-radius: 15px;
   cursor: pointer;
@@ -41,7 +41,8 @@
 }
 
 .tools {
-  margin-top: 0.6rem;
+  margin-top: calc(24rem / 16);
+  margin-bottom: calc(12rem / 16);
   font-size: calc(19rem / 16);
   font-style: italic;
   font-weight: normal;
@@ -52,6 +53,8 @@
   overflow-wrap: normal;
   margin: 0;
   font-size: calc(20rem / 16);
+  line-height: 1.4;
+  border-top: white 2px solid;
 }
 
 .github {

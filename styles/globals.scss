@@ -12,7 +12,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: $bg-color;
   color: white;
-  letter-spacing: 0.5px;
 }
 
 section {
@@ -29,7 +28,7 @@ section {
   }
   @include phone {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 }
 

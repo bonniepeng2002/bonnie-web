@@ -2,11 +2,10 @@
 
 .about {
   padding-bottom: 7rem;
-  width: 100vw;
 }
 
 .content {
-  width: 90%;
+  width: fit-content;
   display: flex;
   padding: 0 calc(32rem / 16);
   @include phone {
@@ -24,6 +23,9 @@
     margin-bottom: 2rem;
     font-size: calc(21rem / 16);
     line-height: 1.6;
+  }
+  :first-child {
+    margin-top: 0;
   }
   @include phone {
     width: 100%;
