@@ -11,6 +11,7 @@ const TextLoop = () => {
     "a fashion enthusiast 👗",
     "happy to meet you!",
   ];
+  //               pink       purple     green     yellow
   const colors = ["#FBA1D4", "#E2B4FF", "#ADE989", "#FFE595"];
   const [message, setMessage] = useState(messages[0]);
   const [color, setColor] = useState(colors[0]);
@@ -57,7 +58,6 @@ export default function Landing() {
   return (
     <section id="landing" className={styles.landing}>
       <div className={styles.container}>
-
         <div className={styles.text_container}>
           <h1 className={styles.hello}>Hi, I'm Bonnie!</h1>
           <span className={styles.iam_container}>
@@ -79,28 +79,22 @@ export default function Landing() {
         <img
           src={bgCircle}
           alt=""
-          style={{ position: "absolute", top: -425, left: -200, zIndex: 0 }}
-          className="undraggable"
+          className={styles.bg_circle1 + " undraggable"}
         />
         <img
           src={bgCircle}
           alt=""
-          width={800}
-          style={{ position: "absolute", top: -300, right: -100, zIndex: 0 }}
-          className="undraggable"
+          className={styles.bg_circle2 + " undraggable"}
         />
         <img
           src={bgCircle}
           alt=""
-          style={{ position: "absolute", bottom: -350, left: -50, zIndex: 0 }}
-          className="undraggable"
+          className={styles.bg_circle3 + " undraggable"}
         />
         <img
           src={bgCircle}
           alt=""
-          width={375}
-          style={{ position: "absolute", bottom: -200, left: 500, zIndex: 0 }}
-          className="undraggable"
+          className={styles.bg_circle4 + " undraggable"}
         />
       </div>
     </section>

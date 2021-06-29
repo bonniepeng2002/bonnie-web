@@ -1,10 +1,12 @@
 import React, { ReactNode, useState } from "react";
+import ProjectHeader from "./projectHeader";
 import styles from "../styles/Accordion.module.scss";
 import chevron from "../public/svg/chevron.svg";
 import github from "../public/svg/github.svg";
 
 interface Props {
   title: string;
+  subtitle?: string;
   tools: string[];
   children: ReactNode;
   github: string;
@@ -22,7 +24,7 @@ export default function Accordion(props: Props) {
       style={{ backgroundColor: props.color }}
     >
       <div className={styles.summary}>
-        <h1 className={styles.title}>{props.title}</h1>
+        <ProjectHeader title={props.title} subtitle={props.subtitle ?? ""} />
         <img
           src={chevron}
           alt="expand card"

@@ -13,6 +13,7 @@ export default function Projects() {
           return (
             <Accordion
               title={item.title}
+              subtitle={item.subtitle}
               tools={item.tools}
               github={item.github}
               color={item.color}

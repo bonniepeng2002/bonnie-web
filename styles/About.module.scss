@@ -10,20 +10,24 @@
   display: flex;
   padding: 0 calc(32rem / 16);
   @include phone {
-    display: block;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
   }
 }
 
 .text_container {
   width: 40vw;
   z-index: $top-level;
+  font-family: "Lato", sans-serif;
   > p {
     margin-bottom: 2rem;
-    font-size: calc(20rem / 16);
+    font-size: calc(21rem / 16);
     line-height: 1.6;
   }
   @include phone {
-    width: 100vw;
+    width: 100%;
+    justify-self: center;
   }
 }
 
@@ -36,12 +40,18 @@
 .img_container {
   position: relative;
   margin-left: 12rem;
+  @include phone {
+    margin: auto;
+  }
 }
 
 .img {
-  width: 430px;
+  width: calc(430rem / 16);
   object-fit: cover;
   border-radius: 15px;
+  @include phone {
+    width: calc(320rem / 16);
+  }
 }
 
 .fish_container {

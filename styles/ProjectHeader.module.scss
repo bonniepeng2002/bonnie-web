@@ -1,0 +1,19 @@
+@import "./constants.scss";
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: calc(25rem / 16);
+  letter-spacing: 0.075rem;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0 calc(6rem / 16);
+  font-size: calc(25rem / 16);
+  font-weight: normal;
+  letter-spacing: normal;
+}

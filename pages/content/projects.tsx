@@ -1,26 +1,21 @@
 const colors = [
-  "#E4B7FFCC",
-  "#FFDF7EDE",
-  "#C5ECFDCC",
-  "#E592BFCC",
-  "#F9BA5BE5",
+  "rgba(228, 183, 255, 0.73)", // purple
+  "rgba(244, 212, 115, 0.91)", // yellow
+  "rgba(194, 232, 249, 0.79)", // blue
+  "rgba(229, 146, 191, 0.8)", // pink
+  "rgba(248, 186, 93, 0.9)", // orange
 ];
 
 export const projects = [
   {
     title: "Bloomi",
+    subtitle: "Plant Tracking App",
     tools: ["Java", "XML", "Android SDK", "Firebase"],
     desc: (
       <p>
         Ever forgotten to water your leafy friends? Bloomi is an Android app
         made to remind you of when to care for your plants! Generating growth
-        history graphs and delivering mobile notifications, Bloomi is the
-        largest project I had ever taken on by myself. With 6000+ lines of Java
-        and XML written over the winter break of my first year, I learned more
-        about Object Oriented Programming, databases, multithreading and UX than
-        I prepared myself for! This project was a small vision that grew and
-        grew with every little success, and I'm proud to say that creating
-        Bloomi gave me confidence of my place in tech.
+        history graphs and delivering mobile notifications, 
       </p>
     ),
     github: "https://github.com/bonniepeng2002/Bloomi",
@@ -28,6 +23,7 @@ export const projects = [
   },
   {
     title: "Apollo",
+    subtitle: "Your Intuitive Virtual Nurse",
     tools: ["Java", "Android SDK", "Python", "Speech Recognition"],
     desc: "",
     github: "https://github.com/bonniepeng2002/Apollo",
@@ -42,6 +38,7 @@ export const projects = [
   },
   {
     title: "Safe at School",
+    subtitle: "Web-based Interactive Game",
     tools: ["HTML/CSS", "JavaScript", "Bootstrap", "Google Webspeech API"],
     desc: "",
     github: "https://github.com/bonniepeng2002/Safe-At-School",
