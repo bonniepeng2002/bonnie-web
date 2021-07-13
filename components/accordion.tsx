@@ -1,8 +1,8 @@
 import React, { ReactNode, useState } from "react";
 import ProjectHeader from "./projectHeader";
-import styles from "../styles/Accordion.module.scss";
 import chevron from "../public/svg/chevron.svg";
 import github from "../public/svg/github.svg";
+import styles from "../styles/Accordion.module.scss";
 
 interface Props {
   title: string;

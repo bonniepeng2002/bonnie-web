@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import styles from "../styles/Landing.module.scss";
 import Typist from "react-typist";
 import JellyfishButton from "../components/jellyfishBtn";
 import bgCircle from "../public/svg/bg-circle.svg";
+import styles from "../styles/Landing.module.scss";
 
 const TextLoop = () => {
   const messages = [

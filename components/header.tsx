@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles/Header.module.scss";
 import highlight from "../public/svg/highlight.svg";
+import styles from "../styles/Header.module.scss";
 
 interface Props {
   title: string;

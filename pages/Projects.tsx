@@ -1,8 +1,8 @@
 import React from "react";
 import Accordion from "../components/accordion";
 import Header from "../components/header";
-import styles from "../styles/Projects.module.scss";
 import { projects } from "./content/projects";
+import styles from "../styles/Projects.module.scss";
 
 export default function Projects() {
   return (

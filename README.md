@@ -1,5 +1,5 @@
 # The Personal Site™
-## Version 2.0 - WIP - 50% complete
+## Version 2.0 - WIP - 75% complete
 
 ### TODO:
 - [x] landing Figma draft
@@ -21,7 +21,7 @@
 - [ ] populate projects accordion with info
 - [x] contact section
 - [x] embed resume
-- [ ] footer
+- [x] footer
 - [ ] mobile footer
 - [ ] mobile landing
 - [x] mobile projects

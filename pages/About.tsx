@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "../components/header";
-import styles from "../styles/About.module.scss";
 import me from "../public/me.jpg";
 import FishExp from "../components/fishExperiences";
 import { p1, p2 } from "./content/about";
+import styles from "../styles/About.module.scss";
 
 export default function About() {
   return (
