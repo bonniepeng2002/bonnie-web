@@ -15,7 +15,7 @@ export default function FishExp() {
 
       <div className={styles.exp1}>
         <img
-          className={styles.pinkFish + " undraggable"}
+          className={styles.fishImg + " undraggable"}
           src={PinkFish}
           alt=""
         />
@@ -23,7 +23,7 @@ export default function FishExp() {
 
       <div className={styles.exp2}>
         <img
-          className={styles.yellowFish + " undraggable"}
+          className={styles.fishImg + " undraggable"}
           src={YellowFish}
           alt=""
         />
@@ -31,7 +31,7 @@ export default function FishExp() {
 
       <div className={styles.exp3}>
         <img
-          className={styles.blueFish + " undraggable"}
+          className={styles.fishImg + " undraggable"}
           src={BlueFish}
           alt=""
         />

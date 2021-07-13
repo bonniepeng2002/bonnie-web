@@ -12,23 +12,36 @@
     left: -15rem;
     bottom: 0;
     transform: rotate(-11deg);
+    @include phone {
+      display: none;
+    }
   }
   &2 {
     position: absolute;
     left: 2rem;
     bottom: -3rem;
+    @include phone {
+      bottom: -2rem;
+    }
   }
   &3 {
     position: absolute;
     left: 18rem;
     bottom: 50%;
     transform: rotate(14deg);
+    @include phone {
+      display: none;
+    }
   }
   &4 {
     position: absolute;
     left: 30rem;
     bottom: 1.5rem;
     transform: rotate(-18deg);
+    @include phone {
+      left: 16rem;
+      bottom: 0rem;
+    }
   }
 }
 
@@ -44,16 +57,34 @@
     left: -12rem;
     bottom: -0.5rem;
     animation: float 4s infinite;
+    @include phone {
+      left: -2rem;
+      bottom: 3rem;
+    }
   }
   &2 {
     position: relative;
     left: -5rem;
     bottom: -4rem;
     animation: float 4s 1s infinite;
+    @include phone {
+      left: -5rem;
+      bottom: 0rem;
+    }
   }
   &3 {
     position: relative;
     top: -2.5rem;
     animation: float 4s 2s infinite;
+    @include phone {
+      left: -8rem;
+      top: -4rem;
+    }
+  }
+}
+
+.fishImg {
+  @include phone {
+    width: calc(160rem / 16);
   }
 }

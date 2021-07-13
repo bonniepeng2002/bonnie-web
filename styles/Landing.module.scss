@@ -10,11 +10,52 @@
   display: flex;
 }
 
+.bg_circle {
+  &1 {
+    position: absolute;
+    z-index: 0;
+    left: calc(-200rem / 16);
+    top: calc(-425rem / 16);
+    @include phone {
+      left: calc(-300rem / 16);
+      top: calc(-250rem / 16);
+    }
+  }
+  &2 {
+    position: absolute;
+    width: calc(800rem / 16);
+    z-index: 0;
+    right: calc(-100rem / 16);
+    top: calc(-300rem / 16);
+    @include phone {
+      display: none;
+    }
+  }
+  &3 {
+    position: absolute;
+    z-index: 0;
+    left: calc(-50rem / 16);
+    bottom: calc(-350rem / 16);
+    @include phone {
+      display: none;
+    }
+  }
+  &4 {
+    position: absolute;
+    width: calc(375rem / 16);
+    z-index: 0;
+    left: calc(500rem / 16);
+    bottom: calc(-200rem / 16);
+    @include phone {
+      display: none;
+    }
+  }
+}
+
 .text_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: calc(1000rem / 16);
   z-index: $top-level;
   letter-spacing: 1.5;
 }
@@ -25,6 +66,9 @@
   font-weight: bold;
   margin: 0;
   line-height: 5rem;
+  @include phone {
+    font-size: calc(56rem / 16);
+  }
 }
 
 .iam_container {
@@ -35,11 +79,18 @@
   > * {
     margin: 0;
   }
+  @include phone {
+    font-size: calc(24rem / 16);
+    height: 17%;
+  }
 }
 
 .message {
   margin: 0 0 0 calc(18rem / 16);
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+  @include phone {
+    letter-spacing: 0;
+  }
 }
 
 .nav {
@@ -47,17 +98,25 @@
     position: absolute;
     top: 5%;
     left: 50%;
+    @include phone {
+      left: 5%;
+    }
   }
-
   &2 {
     position: absolute;
     right: 5%;
     bottom: 40%;
+    @include phone {
+      top: 20%;
+      left: 55%;
+    }
   }
-
   &3 {
     position: absolute;
     bottom: 5%;
     right: 20%;
+    @include phone {
+      bottom: 5%;
+    }
   }
 }

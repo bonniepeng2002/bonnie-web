@@ -60,4 +60,8 @@
   position: absolute;
   bottom: -6rem;
   right: -5rem;
+  @include phone {
+    left: 0;
+    width: -webkit-fill-available;
+  }
 }
