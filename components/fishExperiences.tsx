@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../styles/FishExp.module.scss";
-import SmallFish from "../public/svg/sm-fish.svg";
-import PinkFish from "../public/svg/pink-fish.svg";
-import YellowFish from "../public/svg/yellow-fish.svg";
-import BlueFish from "../public/svg/blue-fish.svg";
+import SmallFish from "../public/svg/fish/sm-fish.svg";
+import PinkFish from "../public/svg/fish/pink-fish.svg";
+import YellowFish from "../public/svg/fish/yellow-fish.svg";
+import BlueFish from "../public/svg/fish/blue-fish.svg";
 
 export default function FishExp() {
   return (

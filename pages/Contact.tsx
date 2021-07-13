@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/header";
-import LinkedIn from "../public/svg/li-shell.svg";
-import Email from "../public/svg/email-shell.svg";
-import Github from "../public/svg/gh-shell.svg";
+import LinkedIn from "../public/svg/shells/li-shell.svg";
+import Email from "../public/svg/shells/email-shell.svg";
+import Github from "../public/svg/shells/gh-shell.svg";
 import styles from "../styles/Contact.module.scss";
 
 export default function Contact() {

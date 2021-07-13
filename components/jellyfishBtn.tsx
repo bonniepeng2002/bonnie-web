@@ -1,7 +1,7 @@
 import React from "react";
-import pinkJelly from "../public/svg/pink-jellyfish.svg";
-import purpleJelly from "../public/svg/purple-jellyfish.svg";
-import yellowJelly from "../public/svg/yellow-jellyfish.svg";
+import pinkJelly from "../public/svg/jellyfish/pink-jellyfish.svg";
+import purpleJelly from "../public/svg/jellyfish/purple-jellyfish.svg";
+import yellowJelly from "../public/svg/jellyfish/yellow-jellyfish.svg";
 import styles from "../styles/JellyfishBtn.module.scss";
 
 interface Props {
