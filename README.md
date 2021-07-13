@@ -19,13 +19,19 @@
 - [x] projects accordion
 - [x] animate projects accordion
 - [ ] populate projects accordion with info
-- [ ] contact section
-- [ ] embed resume
+- [x] contact section
+- [x] embed resume
+- [ ] footer
+- [ ] mobile footer
 - [ ] mobile landing
-- [ ] mobile projects
-- [ ] mobile contact
-- [ ] desktop landing
-- [ ] desktop projects
-- [ ] desktop contact
+- [x] mobile projects
+- [x] mobile contact
+- [x] desktop landing
+- [x] desktop projects
+- [x] desktop contact
+- [ ] tablet landing
+- [ ] tablet about
+- [ ] tablet projects
+- [ ] tablet contact
 - [ ] QA
 - [ ] Release! 🎉
