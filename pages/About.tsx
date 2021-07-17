@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import Header from "../components/header";
 import me from "../public/me.jpg";
 import FishExp from "../components/fishExperiences";
@@ -10,17 +11,21 @@ export default function About() {
     <section id="about" className={styles.about}>
       <Header title="About Me" color="#ed76b7" />
       <div className={styles.content}>
-        <div className={styles.text_container}>
-          <h2 className={styles.subtitle}>Hey, you found me! 👋</h2>
-          {p1}
-          <h2 className={styles.subtitle}>Outside of work,</h2>
-          {p2}
-        </div>
+        <Fade direction="left">
+          <div className={styles.text_container}>
+            <h2 className={styles.subtitle}>Hey, you found me! 👋</h2>
+            {p1}
+            <h2 className={styles.subtitle}>Outside of work,</h2>
+            {p2}
+          </div>
+        </Fade>
         <div className={styles.img_container}>
           <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
-          <div className={styles.fish_container}>
-            <FishExp />
-          </div>
+          <Fade direction="left">
+            <div className={styles.fish_container}>
+              <FishExp />
+            </div>
+          </Fade>
         </div>
       </div>
     </section>

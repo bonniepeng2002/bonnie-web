@@ -1,4 +1,5 @@
 import React from "react";
+import { AttentionSeeker } from "react-awesome-reveal";
 import Header from "../components/header";
 import LinkedIn from "../public/svg/shells/li-shell.svg";
 import Email from "../public/svg/shells/email-shell.svg";
@@ -14,29 +15,33 @@ export default function Contact() {
           <h1 className={styles.header}>Let's get in touch!</h1>
           <div className={styles.shell_container}>
             <div className={styles.shell_container1}>
-              <a
-                className={styles.linkedin}
-                href="https://www.linkedin.com/in/bonniepeng/"
-                target="_blank"
-              >
-                <img src={LinkedIn} alt="LinkedIn" className={styles.shell} />
-              </a>
-              <a
-                className={styles.github}
-                href="https://github.com/bonniepeng2002"
-                target="_blank"
-              >
-                <img src={Github} alt="Github" className={styles.shell} />
-              </a>
+              <AttentionSeeker effect="bounce" cascade={true}>
+                <a
+                  className={styles.linkedin}
+                  href="https://www.linkedin.com/in/bonniepeng/"
+                  target="_blank"
+                >
+                  <img src={LinkedIn} alt="LinkedIn" className={styles.shell} />
+                </a>
+                <a
+                  className={styles.github}
+                  href="https://github.com/bonniepeng2002"
+                  target="_blank"
+                >
+                  <img src={Github} alt="Github" className={styles.shell} />
+                </a>
+              </AttentionSeeker>
             </div>
-            <div className={styles.shell_container2}>
-              <a
-                className={styles.email}
-                href="mailto:bonnie.peng@uwaterloo.ca"
-              >
-                <img src={Email} alt="Email" className={styles.shell} />
-              </a>
-            </div>
+            <AttentionSeeker effect="bounce">
+              <div className={styles.shell_container2}>
+                <a
+                  className={styles.email}
+                  href="mailto:bonnie.peng@uwaterloo.ca"
+                >
+                  <img src={Email} alt="Email" className={styles.shell} />
+                </a>
+              </div>
+            </AttentionSeeker>
           </div>
         </div>
         <iframe

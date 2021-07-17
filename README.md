@@ -35,5 +35,6 @@
 - [x] tablet about
 - [x] tablet projects
 - [x] tablet contact
+- [x] scroll reveal animations
 - [ ] QA
 - [ ] Release! 🎉
