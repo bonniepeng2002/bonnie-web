@@ -30,24 +30,31 @@ $dark-yellow: #ffbc58;
 
 // Breakpoints
 
-$width-sm-max: 1000px; // might change to tablet
+$width-xs-max: 500px;
+$width-sm-max: 1250px;
 $width-md-max: 1800px;
 $width-lg-max: 2400px;
 
 @mixin phone {
-  @media (max-width: $width-sm-max) {
+  @media (max-width: $width-xs-max) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $width-xs-max) and (max-width: $width-sm-max) {
     @content;
   }
 }
 
 @mixin laptop {
-  @media (max-width: $width-md-max) and (min-width: $width-sm-max) {
+  @media (min-width: $width-sm-max) and (max-width: $width-md-max) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media (max-width: $width-lg-max) and (min-width: $width-md-max) {
+  @media (min-width: $width-md-max) and (max-width: $width-lg-max) {
     @content;
   }
 }

@@ -1,6 +1,6 @@
 # The Personal Site™
 
-## Version 2.0 - WIP - 80% complete
+## Version 2.0 - WIP - 96% complete
 
 ### TODO:
 
@@ -31,9 +31,9 @@
 - [x] desktop landing
 - [x] desktop projects
 - [x] desktop contact
-- [ ] tablet landing
-- [ ] tablet about
-- [ ] tablet projects
-- [ ] tablet contact
+- [x] tablet landing
+- [x] tablet about
+- [x] tablet projects
+- [x] tablet contact
 - [ ] QA
 - [ ] Release! 🎉

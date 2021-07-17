@@ -6,6 +6,9 @@
   @include phone {
     flex-direction: column;
   }
+  @include tablet {
+    flex-direction: column;
+  }
 }
 
 .title {
@@ -15,6 +18,9 @@
   @include phone {
     letter-spacing: -1px;
   }
+  @include tablet {
+    letter-spacing: 0px;
+  }
 }
 
 .subtitle {
@@ -22,6 +28,10 @@
   font-size: calc(25rem / 16);
   font-weight: normal;
   @include phone {
+    margin: 0;
+    font-size: 1rem;
+  }
+  @include tablet {
     margin: 0;
     font-size: calc(18rem / 16);
   }

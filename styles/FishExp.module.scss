@@ -15,12 +15,20 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      left: -9rem;
+      bottom: 3rem;
+    }
   }
   &2 {
     position: absolute;
     left: 2rem;
     bottom: -3rem;
     @include phone {
+      bottom: -2rem;
+    }
+    @include tablet {
+      left: -1rem;
       bottom: -2rem;
     }
   }
@@ -32,6 +40,10 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      left: 28rem;
+      bottom: 3rem;
+    }
   }
   &4 {
     position: absolute;
@@ -40,6 +52,10 @@
     transform: rotate(-18deg);
     @include phone {
       left: 16rem;
+      bottom: 0rem;
+    }
+    @include tablet {
+      left: 18rem;
       bottom: 0rem;
     }
   }
@@ -61,6 +77,10 @@
       left: -1rem;
       bottom: 3rem;
     }
+    @include tablet {
+      left: -7rem;
+      bottom: 3rem;
+    }
   }
   &2 {
     position: relative;
@@ -71,6 +91,10 @@
       left: -5rem;
       bottom: -0.5rem;
     }
+    @include tablet {
+      left: -10rem;
+      bottom: -1rem;
+    }
   }
   &3 {
     position: relative;
@@ -79,6 +103,10 @@
     @include phone {
       left: -9rem;
       top: -4rem;
+    }
+    @include tablet {
+      left: -12rem;
+      top: -3rem;
     }
   }
 }

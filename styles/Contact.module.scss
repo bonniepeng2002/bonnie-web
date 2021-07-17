@@ -8,6 +8,10 @@
     font-size: calc(26rem / 16);
     letter-spacing: -2px;
   }
+  @include tablet {
+    font-size: calc(32rem / 16);
+    letter-spacing: -1px;
+  }
 }
 
 .content {
@@ -16,6 +20,9 @@
   justify-content: left;
   gap: 3rem;
   @include phone {
+    flex-direction: column;
+  }
+  @include tablet {
     flex-direction: column;
   }
 }
@@ -31,11 +38,20 @@
     width: auto;
     margin-bottom: 1.5rem;
   }
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 2.5rem;
+  }
 }
 
 .shell {
   @include phone {
     width: calc(100rem / 16);
+  }
+  @include tablet {
+    width: calc(150rem / 16);
   }
 }
 
@@ -43,6 +59,11 @@
   width: 80%;
   justify-content: center;
   @include phone {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  @include tablet {
     display: flex;
     flex-direction: row;
     width: auto;
@@ -73,5 +94,9 @@
   @include phone {
     width: auto;
     height: calc(420rem / 16);
+  }
+  @include tablet {
+    width: 90%;
+    height: calc(480rem / 16);
   }
 }

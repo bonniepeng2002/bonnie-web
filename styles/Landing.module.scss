@@ -20,6 +20,10 @@
       left: calc(-300rem / 16);
       top: calc(-250rem / 16);
     }
+    @include tablet {
+      left: calc(-100rem / 16);
+      top: calc(-250rem / 16);
+    }
   }
   &2 {
     position: absolute;
@@ -30,6 +34,9 @@
     @include phone {
       display: none;
     }
+    @include tablet {
+      display: none;
+    }
   }
   &3 {
     position: absolute;
@@ -38,6 +45,11 @@
     bottom: calc(-350rem / 16);
     @include phone {
       display: none;
+    }
+    @include tablet {
+      width: calc(600rem / 16);
+      bottom: calc(-50rem / 16);
+      left: calc(250rem / 16);
     }
   }
   &4 {
@@ -50,6 +62,11 @@
       width: calc(300rem / 16);
       left: auto;
       bottom: 0;
+    }
+    @include tablet {
+      width: calc(450rem / 16);
+      left: calc(-50rem / 16);
+      bottom: calc(-150rem / 16);
     }
   }
 }
@@ -69,6 +86,9 @@
   @include phone {
     font-size: calc(46rem / 16);
   }
+  @include tablet {
+    font-size: calc(70rem / 16);
+  }
 }
 
 .iam_container {
@@ -84,6 +104,12 @@
     font-size: calc(18rem / 16);
     font-family: "Poppins Medium", "Segoe UI";
     height: 24%;
+    letter-spacing: -1px;
+  }
+  @include tablet {
+    font-size: calc(24rem / 16);
+    font-family: "Poppins Medium", "Segoe UI";
+    height: 22%;
     letter-spacing: -1px;
   }
 }
@@ -104,6 +130,10 @@
     @include phone {
       left: 7%;
     }
+    @include tablet {
+      left: 7%;
+      top: 4%;
+    }
   }
   &2 {
     position: absolute;
@@ -113,6 +143,10 @@
       top: 15%;
       left: 50%;
     }
+    @include tablet {
+      top: 11%;
+      left: 62%;
+    }
   }
   &3 {
     position: absolute;
@@ -120,6 +154,10 @@
     right: 20%;
     @include phone {
       bottom: 20%;
+    }
+    @include tablet {
+      bottom: 20%;
+      left: 43%;
     }
   }
 }

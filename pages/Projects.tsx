@@ -17,6 +17,7 @@ export default function Projects() {
               tools={item.tools}
               github={item.github}
               color={item.color}
+              key={item.title}
             >
               {item.desc}
             </Accordion>

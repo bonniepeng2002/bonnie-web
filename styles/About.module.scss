@@ -7,8 +7,13 @@
 .content {
   width: fit-content;
   display: flex;
-  padding: 0 calc(32rem / 16);
+  padding: 0 calc(36rem / 16);
   @include phone {
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+  }
+  @include tablet {
     flex-direction: column;
     padding: 0;
     margin: auto;
@@ -31,6 +36,10 @@
     width: 100%;
     justify-self: center;
   }
+  @include tablet {
+    width: 100%;
+    justify-self: center;
+  }
 }
 
 .subtitle {
@@ -40,6 +49,9 @@
   @include phone {
     letter-spacing: -1px;
   }
+  @include tablet {
+    letter-spacing: 0;
+  }
 }
 
 .img_container {
@@ -47,6 +59,10 @@
   margin-left: 12rem;
   @include phone {
     margin: auto;
+  }
+  @include tablet {
+    margin: auto;
+    margin-top: 1rem;
   }
 }
 
@@ -57,6 +73,9 @@
   @include phone {
     width: calc(320rem / 16);
   }
+  @include tablet {
+    width: calc(360rem / 16);
+  }
 }
 
 .fish_container {
@@ -64,6 +83,10 @@
   bottom: -6rem;
   right: -5rem;
   @include phone {
+    left: 0;
+    width: -webkit-fill-available;
+  }
+  @include tablet {
     left: 0;
     width: -webkit-fill-available;
   }

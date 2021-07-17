@@ -34,7 +34,7 @@ export default function Accordion(props: Props) {
       </div>
       <div className={styles.details} aria-expanded={!expanded}>
         <h4 className={styles.tools}>{props.tools.join(", ")}</h4>
-        <p className={styles.desc}>{props.children}</p>
+        <div className={styles.desc}>{props.children}</div>
         <a className={styles.github} href={props.github} target="_blank">
           <img
             src={github}

@@ -10,7 +10,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", 'Segoe UI';
+  font-family: "Poppins", "Segoe UI";
   background-color: $bg-color;
   color: white;
 }
@@ -19,16 +19,20 @@ section {
   margin-bottom: 6rem;
   padding-top: 3rem;
   padding-bottom: 0;
-  @include desktop {
-    padding-left: calc(130rem / 16);
-    padding-right: calc(130rem / 16);
+  @include phone {
+    padding: 0 1.75rem;
+  }
+  @include tablet {
+    padding-left: calc(56rem / 16);
+    padding-right: calc(56rem / 16);
   }
   @include laptop {
     padding-left: calc(80rem / 16);
     padding-right: calc(80rem / 16);
   }
-  @include phone {
-    padding: 0 1.75rem;
+  @include desktop {
+    padding-left: calc(130rem / 16);
+    padding-right: calc(130rem / 16);
   }
 }
 

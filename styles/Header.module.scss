@@ -13,6 +13,9 @@
   @include phone {
     letter-spacing: -2px;
   }
+  @include tablet {
+    letter-spacing: -1.5px;
+  }
 }
 
 .highlight {

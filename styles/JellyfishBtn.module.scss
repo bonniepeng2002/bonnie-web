@@ -28,14 +28,17 @@
 }
 
 .jellyfish {
-  @include desktop {
-    width: 100%;
-  }
-  @include laptop {
-    width: 13rem;
-  }
   @include phone {
     width: calc(96rem / 16);
+  }
+  @include tablet {
+    width: calc(170rem / 16);
+  }
+  @include laptop {
+    width: calc(208rem / 16);
+  }
+  @include desktop {
+    width: 100%;
   }
 }
 
@@ -45,13 +48,18 @@
 
 .text {
   position: absolute; // to position the text in middle of jellyfish
-  margin-bottom: 3rem;
-  color: $bg-color;
+  margin: 0;
+  margin-bottom: 2rem;
   font-size: calc(21rem / 16);
   font-weight: bold;
   letter-spacing: 1px;
+  color: $bg-color;
   @include phone {
     display: none;
+  }
+  @include tablet {
+    font-size: calc(18rem / 16);
+    letter-spacing: -0.5px;
   }
 }
 
