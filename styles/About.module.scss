@@ -18,7 +18,7 @@
 .text_container {
   width: 40vw;
   z-index: $top-level;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Segoe UI";
   > p {
     margin-bottom: 2rem;
     font-size: calc(21rem / 16);
@@ -34,9 +34,12 @@
 }
 
 .subtitle {
-  font-family: "Lato", sans-serif;
-  letter-spacing: 1.2px;
+  font-family: "Lato", "Segoe UI";
   font-size: calc(28rem / 16);
+  letter-spacing: 1px;
+  @include phone {
+    letter-spacing: -1px;
+  }
 }
 
 .img_container {

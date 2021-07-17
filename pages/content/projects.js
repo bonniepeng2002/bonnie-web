@@ -17,7 +17,7 @@ export const projects = [
         made to remind you of when to care for your plants! Generating growth
         history graphs and delivering mobile notifications, this solo project
         was inspired by a lovely orchid my friend gifted me, which I was
-        determined to take the best possible care of!
+        determined to take the best possible care of 💪
       </p>
     ),
     github: "https://github.com/bonniepeng2002/Bloomi",

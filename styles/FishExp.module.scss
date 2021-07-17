@@ -58,7 +58,7 @@
     bottom: -0.5rem;
     animation: float 4s infinite;
     @include phone {
-      left: -2rem;
+      left: -1rem;
       bottom: 3rem;
     }
   }
@@ -69,7 +69,7 @@
     animation: float 4s 1s infinite;
     @include phone {
       left: -5rem;
-      bottom: 0rem;
+      bottom: -0.5rem;
     }
   }
   &3 {
@@ -77,7 +77,7 @@
     top: -2.5rem;
     animation: float 4s 2s infinite;
     @include phone {
-      left: -8rem;
+      left: -9rem;
       top: -4rem;
     }
   }

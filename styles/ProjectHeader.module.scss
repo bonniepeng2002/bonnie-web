@@ -12,13 +12,15 @@
   font-size: calc(25rem / 16);
   letter-spacing: 0.075rem;
   margin: 0;
+  @include phone {
+    letter-spacing: -1px;
+  }
 }
 
 .subtitle {
   margin: 0 calc(6rem / 16);
   font-size: calc(25rem / 16);
   font-weight: normal;
-  letter-spacing: normal;
   @include phone {
     margin: 0;
     font-size: calc(18rem / 16);

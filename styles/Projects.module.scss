@@ -1,16 +1,17 @@
 @import "./constants.scss";
 
 .content {
-  width: 95%;
+  width: 90%;
   height: max-content;
   display: flex;
   flex-direction: column;
   margin: auto;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Segoe UI";
   > * {
     margin-bottom: 1.125rem;
   }
   @include phone {
     padding: 0;
+    width: 95%;
   }
 }

@@ -47,7 +47,9 @@
     left: calc(500rem / 16);
     bottom: calc(-200rem / 16);
     @include phone {
-      display: none;
+      width: calc(300rem / 16);
+      left: auto;
+      bottom: 0;
     }
   }
 }
@@ -57,39 +59,40 @@
   flex-direction: column;
   justify-content: center;
   z-index: $top-level;
-  letter-spacing: 1.5;
 }
 
 .hello {
-  font-size: calc(72rem / 16);
-  font-family: "Poppins Bold", sans-serif;
+  font-size: calc(76rem / 16);
+  font-family: "Poppins Bold", "Segoe UI";
   font-weight: bold;
   margin: 0;
-  line-height: 5rem;
   @include phone {
-    font-size: calc(56rem / 16);
+    font-size: calc(46rem / 16);
   }
 }
 
 .iam_container {
   display: flex;
   flex-direction: row;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "Segoe UI";
   font-size: calc(32rem / 16);
+  letter-spacing: 1px;
   > * {
     margin: 0;
   }
   @include phone {
-    font-size: calc(24rem / 16);
-    height: 17%;
+    font-size: calc(18rem / 16);
+    font-family: "Poppins Medium", "Segoe UI";
+    height: 20%;
+    letter-spacing: -1px;
   }
 }
 
 .message {
-  margin: 0 0 0 calc(18rem / 16);
-  letter-spacing: 1px;
+  margin: 0;
+  margin-left: calc(18rem / 16);
   @include phone {
-    letter-spacing: 0;
+    margin-left: 0.5rem;
   }
 }
 
@@ -107,8 +110,8 @@
     right: 5%;
     bottom: 40%;
     @include phone {
-      top: 20%;
-      left: 55%;
+      top: 15%;
+      left: 50%;
     }
   }
   &3 {
@@ -116,7 +119,7 @@
     bottom: 5%;
     right: 20%;
     @include phone {
-      bottom: 5%;
+      bottom: 15%;
     }
   }
 }

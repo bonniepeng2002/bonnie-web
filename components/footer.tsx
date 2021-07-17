@@ -30,7 +30,7 @@ const TextLoop = () => {
     <div>
       {typing ? (
         <Typist
-          cursor={{ show: false }}
+          cursor={{ show: true }}
           onTypingDone={() => {
             repeatText();
           }}

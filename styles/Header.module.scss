@@ -7,8 +7,12 @@
 
 .header {
   z-index: $top-level;
-  font-size: calc(36rem / 16);
+  font-family: "Poppins Medium", "Segoe UI";
+  font-size: calc(40rem / 16);
   margin: 0.5rem 0.2rem;
+  @include phone {
+    letter-spacing: -2px;
+  }
 }
 
 .highlight {

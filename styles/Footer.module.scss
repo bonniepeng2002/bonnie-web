@@ -11,7 +11,14 @@
 }
 
 .typist {
-  height: calc(24rem / 16);
+  height: calc(48rem / 16);
+  // align cursor
+  display: flex;
+  > p,
+  span {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .copyright {
