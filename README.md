@@ -1,6 +1,6 @@
 # The Personal Site™
 
-## Version 2.0 - WIP - 96% complete
+## Version 2.0 - WIP - 90% complete
 
 ### TODO:
 
@@ -21,19 +21,22 @@
 - [x] projects accordion
 - [x] animate projects accordion
 - [ ] populate projects accordion with info
+- [ ] experience section
 - [x] contact section
 - [x] embed resume
 - [x] footer
 - [x] mobile footer
 - [x] mobile landing
-- [x] mobile projects
+- [ ] mobile experience
+- [ ] mobile projects
 - [x] mobile contact
 - [x] desktop landing
 - [x] desktop projects
 - [x] desktop contact
 - [x] tablet landing
 - [x] tablet about
-- [x] tablet projects
+- [x] tablet experience
+- [ ] tablet projects
 - [x] tablet contact
 - [x] scroll reveal animations
 - [ ] QA
