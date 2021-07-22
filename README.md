@@ -28,14 +28,14 @@
 - [x] mobile footer
 - [x] mobile landing
 - [ ] mobile experience
-- [ ] mobile projects
+- [x] mobile projects
 - [x] mobile contact
 - [x] desktop landing
 - [x] desktop projects
 - [x] desktop contact
 - [x] tablet landing
 - [x] tablet about
-- [x] tablet experience
+- [ ] tablet experience
 - [ ] tablet projects
 - [x] tablet contact
 - [x] scroll reveal animations
