@@ -21,7 +21,6 @@
 }
 
 .chevron {
-  margin-left: calc(35rem / 16);
   transition: all 0.25s linear;
 }
 
@@ -55,6 +54,12 @@
   font-size: calc(20rem / 16);
   line-height: 1.4;
   border-top: white 1.5px solid;
+  @include phone {
+    font-size: calc(14rem / 16);
+  }
+  @include tablet {
+    font-size: calc(18rem / 16);
+  }
 }
 
 .github {

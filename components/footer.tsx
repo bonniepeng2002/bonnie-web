@@ -5,7 +5,7 @@ import styles from "../styles/Footer.module.scss";
 const TextLoop = () => {
   const messages = [
     "Made by Bonnie with 💖",
-    "Built with TypeScript, Sass and React",
+    "Built with TypeScript, React and Sass",
     "Last Updated: August 2021",
     "Thanks for viewing my website!",
   ];

@@ -24,7 +24,7 @@ export default function JellyfishButton(props: Props) {
         return (
           <img
             src={purpleJelly}
-            alt="Projects Button"
+            alt="Experience Button"
             className={styles.jellyfish + " undraggable"}
           />
         );
@@ -48,8 +48,8 @@ export default function JellyfishButton(props: Props) {
     switch (props.href) {
       case "#about":
         return "About Me";
-      case "#projects":
-        return "Projects";
+      case "#experience":
+        return "Experience";
       case "#contact":
         return "Contact";
       default:
@@ -58,7 +58,7 @@ export default function JellyfishButton(props: Props) {
   };
   const jellyfish = getJellyfish();
   const text = getText();
-  const style = text === "Projects" ? " " + styles.delay : "";
+  const style = text === "Experience" ? " " + styles.delay : "";
 
   return (
     <figure className={styles.container}>

@@ -3,11 +3,14 @@
 .container {
   display: flex;
   flex-direction: row;
+  white-space: pre-wrap;
   @include phone {
     flex-direction: column;
+    white-space: nowrap;
   }
   @include tablet {
     flex-direction: column;
+    white-space: nowrap;
   }
 }
 
@@ -24,7 +27,7 @@
 }
 
 .subtitle {
-  margin: 0 calc(6rem / 16);
+  margin: 0;
   font-size: calc(25rem / 16);
   font-weight: normal;
   @include phone {

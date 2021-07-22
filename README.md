@@ -1,11 +1,12 @@
 # 😎 The Personal Site™
 
-## Version 2.0 - WIP - 90% complete
+## Version 2.0 - WIP - 96% complete
 
 ### TODO:
 
 - [x] landing Figma draft
 - [x] about Figma draft
+- [x] experience Figma draft
 - [x] projects Figma draft
 - [x] contact Figma draft
 - [x] mobile landing Figma draft
@@ -21,13 +22,14 @@
 - [x] projects accordion
 - [x] animate projects accordion
 - [ ] populate projects accordion with info
-- [ ] experience section
+- [x] experience section
+- [ ] populate experience timeline with info
 - [x] contact section
 - [x] embed resume
 - [x] footer
 - [x] mobile footer
 - [x] mobile landing
-- [ ] mobile experience
+- [x] mobile experience
 - [x] mobile projects
 - [x] mobile contact
 - [x] desktop landing
@@ -35,8 +37,8 @@
 - [x] desktop contact
 - [x] tablet landing
 - [x] tablet about
-- [ ] tablet experience
-- [ ] tablet projects
+- [x] tablet experience
+- [x] tablet projects
 - [x] tablet contact
 - [x] scroll reveal animations
 - [ ] QA

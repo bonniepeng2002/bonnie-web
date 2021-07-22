@@ -14,7 +14,7 @@ export default function ProjectHeader(props: Props) {
         {props.subtitle && ":"}
       </h1>
       {props.subtitle !== "" && (
-        <h1 className={styles.subtitle}>{props.subtitle}</h1>
+        <h1 className={styles.subtitle}> {props.subtitle}</h1>
       )}
     </div>
   );

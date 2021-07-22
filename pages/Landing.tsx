@@ -70,7 +70,7 @@ export default function Landing() {
           <JellyfishButton href="#about" color="pink" />
         </div>
         <div className={styles.nav2}>
-          <JellyfishButton href="#projects" color="purple" />
+          <JellyfishButton href="#experience" color="purple" />
         </div>
         <div className={styles.nav3}>
           <JellyfishButton href="#contact" color="yellow" />

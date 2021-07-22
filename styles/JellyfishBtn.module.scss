@@ -58,8 +58,7 @@
     display: none;
   }
   @include tablet {
-    font-size: calc(18rem / 16);
-    letter-spacing: -0.5px;
+    display: none;
   }
 }
 
