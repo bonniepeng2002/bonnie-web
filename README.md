@@ -43,3 +43,5 @@
 - [x] scroll reveal animations
 - [ ] QA
 - [ ] Release! 🎉
+
+![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
