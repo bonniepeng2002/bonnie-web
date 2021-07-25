@@ -1,6 +1,6 @@
 # 😎 The Personal Site™
 
-## Version 2.0 - WIP - 96% complete
+## Version 2.0 - WIP - 98% complete
 
 ### TODO:
 
@@ -21,7 +21,7 @@
 - [x] animate about graphic
 - [x] projects accordion
 - [x] animate projects accordion
-- [ ] populate projects accordion with info
+- [x] populate projects accordion with info
 - [x] experience section
 - [ ] populate experience timeline with info
 - [x] contact section
