@@ -19,7 +19,7 @@ export default function Experience() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  borderTop: "10px solid " + exp.bgColor
+                  borderTop: "10px solid " + exp.bgColor,
                 }}
                 position="left"
                 icon={exp.logo}

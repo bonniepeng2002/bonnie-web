@@ -10,7 +10,7 @@ export const p1 = (
 export const p2 = (
   <p>
     I love bouncing around the Halifax waterfront with my camera, baking (cake
-    for breakfast anyone??), and dreaming of all the boba I’m going to chug
+    for breakfast anyone??), and dreaming of all the clothes I’m going to buy
     after COVID is over.
   </p>
 );

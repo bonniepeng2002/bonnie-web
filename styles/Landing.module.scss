@@ -47,7 +47,7 @@
       display: none;
     }
     @include tablet {
-      width: calc(600rem / 16);
+      width: calc(500rem / 16);
       bottom: calc(-50rem / 16);
       left: calc(250rem / 16);
     }
