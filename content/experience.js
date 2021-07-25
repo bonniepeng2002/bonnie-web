@@ -30,8 +30,8 @@ const cscLogo = (
         y2="73.6671"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#1481E3" />
-        <stop offset="1" stop-color="#4ED4B2" />
+        <stop stopColor="#1481E3" />
+        <stop offset="1" stopColor="#4ED4B2" />
       </linearGradient>
     </defs>
   </svg>
