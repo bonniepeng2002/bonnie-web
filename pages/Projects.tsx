@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import Accordion from "../components/accordion";
 import Header from "../components/header";
-import { projects } from "./content/projects";
+import { projects } from "../content/projects";
 import styles from "../styles/Projects.module.scss";
 
 export default function Projects() {

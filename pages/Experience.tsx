@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-import { experience } from "../pages/content/experience";
+import { experience } from "../content/experience";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
