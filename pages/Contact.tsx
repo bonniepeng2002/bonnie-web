@@ -6,6 +6,9 @@ import Email from "../public/svg/shells/email-shell.svg";
 import Github from "../public/svg/shells/gh-shell.svg";
 import styles from "../styles/Contact.module.scss";
 
+const resumeLink =
+  "https://drive.google.com/file/d/1Hzm4FGKQruiG8JSnD1Q036jsgGKElbAt/preview";
+
 export default function Contact() {
   return (
     <section id="contact" className={styles.contact}>
@@ -45,7 +48,7 @@ export default function Contact() {
           </div>
         </div>
         <iframe
-          src="https://drive.google.com/file/d/13Fg6rJVgYh6fZaEQ8MfdMG-L-A8TAwiW/preview"
+          src={resumeLink}
           allow="autoplay"
           className={styles.resume}
         ></iframe>
