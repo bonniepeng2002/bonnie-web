@@ -5,7 +5,6 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
 import styles from "../styles/Experience.module.scss";
 
 export default function Experience() {

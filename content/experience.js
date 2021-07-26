@@ -37,6 +37,8 @@ const cscLogo = (
   </svg>
 );
 
+const rbcLogo = <img src="rbc.jpg" />;
+
 // EXPERIENCE
 
 export const experience = [
@@ -53,7 +55,7 @@ export const experience = [
         </li>
       </ul>
     ),
-    logo: "",
+    logo: rbcLogo,
     bgColor: colors[0],
   },
   {
