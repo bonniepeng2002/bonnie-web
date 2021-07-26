@@ -1,6 +1,6 @@
 {
   "name": "bonnie-web",
-  "homepage": "http://bonniepeng2002.github.io/personal-web-2.0",
+  "homepage": "http://bonniepeng2002.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,15 +8,17 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
+    "@babel/core": "^7.14.8",
     "next": "10.2.3",
     "next-images": "^1.7.0",
     "node": "^16.1.0",
     "react": "^17.0.2",
     "react-awesome-reveal": "^3.8.1",
     "react-dom": "17.0.2",
+    "react-scripts": "^4.0.3",
     "react-typist": "^2.0.5",
     "react-vertical-timeline-component": "^3.3.3",
     "trim-newlines": "^4.0.2"
