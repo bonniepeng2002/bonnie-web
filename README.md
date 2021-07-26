@@ -2,6 +2,8 @@
 
 Check it out at [bonniepeng.com](https://www.bonniepeng.com/)!
 
+![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
+
 ### Completed Tasks:
 
 - [x] landing Figma draft
@@ -43,5 +45,3 @@ Check it out at [bonniepeng.com](https://www.bonniepeng.com/)!
 - [x] scroll reveal animations
 - [x] QA
 - [x] Release! 🎉
-
-![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
