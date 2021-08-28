@@ -1,8 +1,10 @@
-# 😎 The Personal Site™
+# The Personal Site™ - v2.0
 
-## Version 2.0 - WIP - 98% complete
+Check it out at [bonniepeng.com](https://www.bonniepeng.com/)!
 
-### TODO:
+![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
+
+### Completed Tasks:
 
 - [x] landing Figma draft
 - [x] about Figma draft
@@ -23,7 +25,7 @@
 - [x] animate projects accordion
 - [x] populate projects accordion with info
 - [x] experience section
-- [ ] populate experience timeline with info
+- [x] populate experience timeline with info
 - [x] contact section
 - [x] embed resume
 - [x] footer
@@ -41,7 +43,5 @@
 - [x] tablet projects
 - [x] tablet contact
 - [x] scroll reveal animations
-- [ ] QA
-- [ ] Release! 🎉
-
-![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
+- [x] QA
+- [x] Release! 🎉
