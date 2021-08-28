@@ -46,12 +46,33 @@ export const experience = [
     role: "Software Engineer",
     company: "Ampli, RBC Ventures",
     time: "May - Aug 2021",
-    tools: ["JavaScript", "React/Redux/Native", "SQL", "Jest", "Jenkins"],
+    tools: [
+      "JavaScript",
+      "React/Redux/Native",
+      "PostgreSQL",
+      "Jest",
+      "Jenkins",
+    ],
     desc: (
       <ul>
         <li>
-          Implemented fullstack admininistration portal enhancements to improve
-          functionality, raising efficiency for 50+ employees.
+          Implemented an end to end email decryption and CSV generating feature,
+          reducing manual labour by 5+ hours per use.
+        </li>
+        <li>
+          Automated the emailing of CSV files, exceeded project goals by
+          verifying permissions of the receiver and allowing for high efficiency
+          and security in data transfers.
+        </li>
+        <li>
+          Developed full stack administration portal enhancements to improve
+          functionality and code scalability, raising efficiency for 70+
+          employees by 20%.
+        </li>
+        <li>
+          Provided backend features in member cohort creation and management,
+          contributing to the app's re-baselining feature and decreasing weekly
+          manual labour by 7 hours.
         </li>
       </ul>
     ),
@@ -66,11 +87,11 @@ export const experience = [
     desc: (
       <ul>
         <li>
-          Translated designs into responsive and customizable components,
-          allowing for website flexibility and maintanability.
+          Translated designs into responsive and highly customizable components,
+          allowing for website flexibility and maintainability
         </li>
         <li>
-          Built dynamic and interactive pages of the website used by 2000+
+          Built dynamic and interactive pages of the website used by 300+
           students.
         </li>
         <li>
@@ -78,8 +99,8 @@ export const experience = [
           accessible technology, delivering perceivable and operable content.
         </li>
         <li>
-          Populated data from markdown files to simplify the creation and
-          updating of component instances.
+          Populated data from dynamically imported images and Markdown files,
+          simplifying the creating and updating of website content.
         </li>
       </ul>
     ),

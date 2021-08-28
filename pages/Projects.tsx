@@ -8,7 +8,7 @@ import styles from "../styles/Projects.module.scss";
 export default function Projects() {
   return (
     <section id="projects" className={styles.projects}>
-      <Header title="Projects" color="#ADE989" />
+      <Header title="Projects" color="rgba(166, 231, 127, 0.8)" />
       <div className={styles.content}>
         <Fade direction="up" cascade={true} damping={0.25}>
           {projects.map((item) => {
