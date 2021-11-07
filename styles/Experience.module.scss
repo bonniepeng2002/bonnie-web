@@ -10,7 +10,7 @@
   @include phone {
     flex-direction: column;
     white-space: normal;
-    font-size: calc(14rem / 16);
+    font-size: calc(12rem / 16);
   }
   @include tablet {
     flex-direction: column;
@@ -24,7 +24,7 @@
 
 .desc {
   @include phone {
-    font-size: calc(14rem / 16);
+    font-size: calc(12rem / 16);
     > ul {
       padding-left: 1.3rem;
     }

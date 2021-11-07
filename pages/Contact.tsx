@@ -9,7 +9,7 @@ import styles from "../styles/Contact.module.scss";
 /* <AttentionSeeker effect="bounce"></AttentionSeeker> */
 
 const resumeLink =
-  "https://drive.google.com/file/d/1gwDSvdt-QVvxSxtjcKJ9suyX0wQof6a2/preview";
+  "https://drive.google.com/file/d/1quKS6pe8y6tY7BoswV06_h5HNdQkOqE0/preview";
 
 export default function Contact() {
   return (

@@ -35,6 +35,9 @@
   @include phone {
     width: 100%;
     justify-self: center;
+    > p {
+      font-size: 1rem;
+    }
   }
   @include tablet {
     width: 100%;
@@ -48,6 +51,7 @@
   letter-spacing: 1px;
   @include phone {
     letter-spacing: -1px;
+    font-size: calc(23rem / 16);
   }
   @include tablet {
     letter-spacing: 0;

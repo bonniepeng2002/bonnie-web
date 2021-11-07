@@ -20,6 +20,7 @@
   margin: 0;
   @include phone {
     letter-spacing: -1px;
+    font-size: calc(20rem / 16);
   }
   @include tablet {
     letter-spacing: 0px;
@@ -32,7 +33,7 @@
   font-weight: normal;
   @include phone {
     margin: 0;
-    font-size: 1rem;
+    font-size: calc(14rem / 16);
   }
   @include tablet {
     margin: 0;

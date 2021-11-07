@@ -36,7 +36,41 @@ const cscLogo = (
     </defs>
   </svg>
 );
-
+const technovaLogo = (
+  <svg
+    width="200"
+    height="200"
+    viewBox="0 0 200 200"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle cx="100" cy="100" r="100" fill="white" />
+    <path
+      d="M164.081 123.045L99.7872 91.0564L36 123.045L99.7872 154.175L164.081 123.045Z"
+      fill="#7676E8"
+    />
+    <path
+      d="M164.081 134.258L99.7924 166.799L36 134.258V123.045L99.7924 154.036L164.081 123.03V134.258Z"
+      fill="#5B5BA9"
+    />
+    <path
+      d="M164.081 96.118L99.7872 64.1292L36 96.118L99.7872 127.248L164.081 96.118Z"
+      fill="#86E9DA"
+    />
+    <path
+      d="M164.081 107.33L99.7924 139.871L36 107.33V96.1175L99.7924 127.109L164.081 96.1028V107.33Z"
+      fill="#68B1A6"
+    />
+    <path
+      d="M164.081 68.9888L99.7876 37L36.0003 68.9888L99.7876 100.119L164.081 68.9888Z"
+      fill="#FC6D83"
+    />
+    <path
+      d="M164.081 80.2011L99.7924 112.742L36 80.2011V68.9882L99.7924 99.9796L164.081 68.9736V80.2011Z"
+      fill="#CD5769"
+    />
+  </svg>
+);
 const rbcLogo = <img src="rbc.jpg" />;
 
 // EXPERIENCE
@@ -56,23 +90,22 @@ export const experience = [
     desc: (
       <ul>
         <li>
-          Implemented an end to end email decryption and CSV generating feature,
-          reducing manual labour by 5+ hours per use.
+          Implemented an end-to-end email decryption and CSV generating feature,
+          reducing manual operations by 5+ hours per use.
         </li>
         <li>
-          Automated the emailing of CSV files, exceeded project goals by
-          verifying permissions of the receiver and allowing for high efficiency
-          and security in data transfers.
+          Automated the emailing of generated CSV files, exceeded project goals
+          by verifying permissions of the receiver for secure data transfers.
         </li>
         <li>
-          Developed full stack administration portal enhancements to improve
-          functionality and code scalability, raising efficiency for 70+
-          employees by 20%.
+          Developed full-stack administration portal and mobile app enhancements
+          to improve user experience and code scalability, raising efficiency
+          for 70+ employees by 20%.
         </li>
         <li>
-          Provided backend features in member cohort creation and management,
-          contributing to the app's re-baselining feature and decreasing weekly
-          manual labour by 7 hours.
+          Delivered back-end features in member cohort creation and management,
+          contributing to the app’s re-baselining project and decreasing weekly
+          workload by 7 hours.
         </li>
       </ul>
     ),
@@ -87,24 +120,54 @@ export const experience = [
     desc: (
       <ul>
         <li>
-          Translated designs into responsive and highly customizable components,
-          allowing for website flexibility and maintainability
+          Translated designs into responsive and customizable components,
+          allowing for flexibility and maintainability of the website.
         </li>
         <li>
-          Built dynamic and interactive pages of the website used by 300+
-          students.
+          Built dynamic and interactive pages of the re-branded website,
+          actively used by 900+ students.
         </li>
         <li>
           Encouraged an inclusive user audience by applying principles of
           accessible technology, delivering perceivable and operable content.
         </li>
         <li>
-          Populated data from dynamically imported images and Markdown files,
-          simplifying the creating and updating of website content.
+          Populated data from dynamically imported files, simplifying the
+          creating and updating of website content.
         </li>
       </ul>
     ),
     logo: cscLogo,
     bgColor: colors[1],
+  },
+  {
+    role: "Logistics Coordinator, Web Developer, Judge",
+    company: "TechNova",
+    time: "Apr 2021 - Sept 2021",
+    tools: ["JavaScript", "React", "SCSS", "Heroku", "Figma"],
+    desc: (
+      <ul>
+        <li>
+          Coordinated the development of 25+ beginner-level workshops to empower
+          students in tech, for the University of Waterloo’s first Women+ in
+          Tech hackathon.
+        </li>
+        <li>
+          Communicated professionally with 15+ volunteers on a bi-weekly basis
+          to meet precise requirements and deadlines, adapting quickly to
+          accommodations.
+        </li>
+        <li>
+          Collaborated with 20 organizers to deliver cross-functional plans and
+          contingencies, seeking better procedures when necessary.
+        </li>
+        <li>
+          Developed the hackathon’s first website using React and SCSS, reaching
+          a traffic of 5000+ visitors per month.
+        </li>
+      </ul>
+    ),
+    logo: technovaLogo,
+    bgColor: colors[3],
   },
 ];

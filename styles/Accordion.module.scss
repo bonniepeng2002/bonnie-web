@@ -45,7 +45,9 @@
   font-size: calc(19rem / 16);
   font-style: italic;
   font-weight: normal;
-  letter-spacing: 0.03rem;
+  @include phone {
+    font-size: calc(13rem / 16);
+  }
 }
 
 .desc {
