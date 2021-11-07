@@ -45,3 +45,6 @@ Check it out at [bonniepeng.com](https://www.bonniepeng.com/)!
 - [x] scroll reveal animations
 - [x] QA
 - [x] Release! 🎉
+
+### Notes:
+- Deployed with [Vercel](https://vercel.com/)
