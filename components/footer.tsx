@@ -6,7 +6,7 @@ const TextLoop = () => {
   const messages = [
     "Made by Bonnie with 💖",
     "Built with TypeScript, React and Sass",
-    "Last Updated: August 2021",
+    "Last Updated: May 2022",
     "Thanks for viewing my website!",
   ];
 
@@ -51,7 +51,7 @@ export default function Footer() {
   return (
     <footer className={styles.container}>
       <TextLoop />
-      <p className={styles.copyright}>&copy; Bonnie Peng, 2021</p>
+      <p className={styles.copyright}>&copy; Bonnie Peng, 2022</p>
     </footer>
   );
 }
