@@ -9,8 +9,6 @@ export const p1 = (
 
 export const p2 = (
   <p>
-    I love bouncing around the Halifax waterfront with my camera, baking (cake
-    for breakfast anyone??), and dreaming of all the clothes I’m going to buy
-    after COVID is over.
+    I love bouncing around Kensington Market in Toronto with my camera, baking and cooking up Asian recipes, and exploring downtown with a coffee.
   </p>
 );
