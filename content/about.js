@@ -9,6 +9,6 @@ export const p1 = (
 
 export const p2 = (
   <p>
-    I love bouncing around Kensington Market in Toronto with my camera, baking and cooking up Asian recipes, and exploring downtown with a coffee.
+    I love bouncing around Kensington Market in Toronto with my camera, baking and cooking up Asian recipes, and exploring downtown with a coffee!
   </p>
 );
