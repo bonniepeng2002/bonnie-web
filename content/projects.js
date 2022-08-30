@@ -66,9 +66,7 @@ export const projects = [
         TypeScript, React, and Sass, this website combines the tools I've used
         in each development team to create something of my own 👩‍💻.
         <br /> <br />
-        The oceanic theme is a tribute to my home in Nova Scotia, and because
-        the jellyfish matched *too* well with the only professional-ish picture
-        I had 😁.
+        The oceanic theme is a small tribute to my home in Nova Scotia 😁.
       </p>
     ),
     github: "https://github.com/bonniepeng2002/bonniepeng2002.github.io",
@@ -102,7 +100,7 @@ export const projects = [
         Ah, my first programming project back in my Computer Science class in
         high school. Every programmer has a project like this, and for me it was
         a faithful recreation of Atari's <em>Missile Command</em>, with a few
-        graphical tweaks (a lot of rainbows! 🌈).
+        graphical tweaks (a lot of color! 🌈).
       </p>
     ),
     github: "https://github.com/bonniepeng2002/Missile-Command",
