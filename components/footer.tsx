@@ -6,7 +6,7 @@ const TextLoop = () => {
   const messages = [
     "Made by Bonnie with 💖",
     "Built with TypeScript, React and Sass",
-    "Last Updated: Aug 2022",
+    "Last Updated: Nov 2022",
     "Thanks for viewing my website!",
   ];
 
