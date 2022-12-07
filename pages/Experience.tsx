@@ -30,9 +30,10 @@ export default function Experience() {
                   </h2>
                   <h2 className={styles.company}>{" @ " + exp.company}</h2>
                 </div>
-                <p className="vertical-timeline-element-subtitle">
+                {exp.tools.length > 0 && 
+                (<p className="vertical-timeline-element-subtitle">
                   Tools: {exp.tools.join(", ")}
-                </p>
+                </p>)}
                 <div className={styles.desc}>{exp.desc}</div>
               </VerticalTimelineElement>
             );

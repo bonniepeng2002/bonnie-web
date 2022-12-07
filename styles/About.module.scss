@@ -73,7 +73,7 @@
 .img {
   width: calc(430rem / 16);
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 10px;
   @include phone {
     width: calc(320rem / 16);
   }

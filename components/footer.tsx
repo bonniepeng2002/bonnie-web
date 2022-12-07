@@ -5,9 +5,8 @@ import styles from "../styles/Footer.module.scss";
 const TextLoop = () => {
   const messages = [
     "Made by Bonnie with 💖",
-    "Built with TypeScript, React and Sass",
-    "Last Updated: Nov 2022",
-    "Thanks for viewing my website!",
+    "Built with TypeScript, React and Scss",
+    "Last Updated: Dec 2022"
   ];
 
   const [message, setMessage] = useState(messages[0]);

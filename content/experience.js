@@ -1,10 +1,10 @@
-const colors = [
-  "rgba(166, 231, 127, 0.75)", // green
-  "rgba(160, 214, 238, 0.75)", // blue
-  "rgba(228, 183, 255, 0.75)", // purple
-  "rgba(229, 146, 191, 0.75)", // pink
-  "rgba(248, 186, 93, 0.75)", // orange
-];
+const colors = {
+  "green": "rgba(166, 231, 127, 0.75)",
+  "blue": "rgba(160, 214, 238, 0.75)",
+  "purple": "rgba(228, 183, 255, 0.75)",
+  "pink": "rgba(229, 146, 191, 0.75)",
+  "orange": "rgba(248, 186, 93, 0.75)"
+}
 
 // LOGOS
 
@@ -72,10 +72,38 @@ const technovaLogo = (
   </svg>
 );
 const rbcLogo = <img src="rbc.jpg" />;
+const bdoLogo = <img src="bdo.jpg" />;
+const amazonLogo = <img src="amazon.png" />;
 
 // EXPERIENCE
 
 export const experience = [
+  {
+    role: "Incoming Software Engineer",
+    company: "Amazon",
+    time: "May - Aug 2023",
+    tools: [],
+    desc: "",
+    logo: amazonLogo,
+    bgColor: colors.orange,
+  },
+  {
+    role: "DevOps Engineer",
+    company: "BDO Canada",
+    time: "Sept - Dec 2022",
+    tools: [
+      "Python",
+      "JavaScript",
+      "React",
+      "Terraform",
+      "Flask",
+      "Docker",
+      "Azure"
+    ],
+    desc: "",
+    logo: bdoLogo,
+    bgColor: colors.pink,
+  },
   {
     role: "Software Engineer",
     company: "Ampli, RBC Ventures",
@@ -110,7 +138,7 @@ export const experience = [
       </ul>
     ),
     logo: rbcLogo,
-    bgColor: colors[0],
+    bgColor: colors.blue,
   },
   {
     role: "Frontend Developer",
@@ -138,7 +166,7 @@ export const experience = [
       </ul>
     ),
     logo: cscLogo,
-    bgColor: colors[1],
+    bgColor: colors.green,
   },
   {
     role: "Logistics Coordinator, Web Developer, Judge",
@@ -168,6 +196,6 @@ export const experience = [
       </ul>
     ),
     logo: technovaLogo,
-    bgColor: colors[3],
+    bgColor: colors.purple,
   },
 ];
