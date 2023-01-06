@@ -17,7 +17,8 @@
 .content {
   display: flex;
   align-items: center;
-  justify-content: left;
+  // justify-content: left;
+  justify-content: center;
   gap: 3rem;
   @include phone {
     flex-direction: column;

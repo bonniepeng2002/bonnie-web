@@ -45,11 +45,11 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <iframe
+        {/* <iframe
           src={resumeLink}
           allow="autoplay"
           className={styles.resume}
-        ></iframe>
+        ></iframe> */}
       </div>
     </section>
   );
