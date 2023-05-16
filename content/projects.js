@@ -53,57 +53,58 @@ export const projects = [
     ),
     github: "https://github.com/bonniepeng2002/Apollo",
     color: colors[1],
-  },
-  {
-    title: "Website Portfolio",
-    subtitle: "This one right here!",
-    tools: ["TypeScript", "React", "Sass", "Next", "Figma"],
-    desc: (
-      <p>
-        After a year since the first iteration of my website, it was time to
-        take on another challenge with the web development skills I'd gained by
-        working with UWCSC and TechNova. Prototyped in Figma and created with
-        TypeScript, React, and Sass, this website combines the tools I've used
-        in each development team to create something of my own 👩‍💻.
-        <br /> <br />
-        The oceanic theme is a small tribute to my home in Nova Scotia 😁.
-      </p>
-    ),
-    github: "https://github.com/bonniepeng2002/bonniepeng2002.github.io",
-    color: colors[2],
-  },
-  {
-    title: "Safe at School",
-    subtitle: "Web-based Interactive Game",
-    tools: ["HTML/CSS", "JavaScript", "Bootstrap", "Google Webspeech API"],
-    desc: (
-      <p>
-        Safe at School teaches elementary students about the COVID-19 public
-        health guidelines through a choose-your-own-adventure style game. 🌎
-        <br /> <br />
-        As a web-based game, this project was augmented through the use of
-        text-to-speech to assist children with difficulty reading. Each scenario
-        is narrated thoroughly, which contributed to its award of Best
-        Presentation at IgnitionHacks, 2020.
-      </p>
-    ),
-    github: "https://github.com/bonniepeng2002/Safe-At-School",
-    link: "https://devpost.com/software/safe-at-school",
-    color: colors[3],
-  },
-  {
-    title: "Missile Command",
-    subtitle: "Python Game",
-    tools: ["Python", "Turtle Graphics"],
-    desc: (
-      <p>
-        Ah, my first programming project back in my Computer Science class in
-        high school. Every programmer has a project like this, and for me it was
-        a faithful recreation of Atari's <em>Missile Command</em>, with a few
-        graphical tweaks (a lot of color! 🌈).
-      </p>
-    ),
-    github: "https://github.com/bonniepeng2002/Missile-Command",
-    color: colors[4],
-  },
+  }
+  //,
+  // {
+  //   title: "Website Portfolio",
+  //   subtitle: "This one right here!",
+  //   tools: ["TypeScript", "React", "Sass", "Next", "Figma"],
+  //   desc: (
+  //     <p>
+  //       After a year since the first iteration of my website, it was time to
+  //       take on another challenge with the web development skills I'd gained by
+  //       working with UWCSC and TechNova. Prototyped in Figma and created with
+  //       TypeScript, React, and Sass, this website combines the tools I've used
+  //       in each development team to create something of my own 👩‍💻.
+  //       <br /> <br />
+  //       The oceanic theme is a small tribute to my home in Nova Scotia 😁.
+  //     </p>
+  //   ),
+  //   github: "https://github.com/bonniepeng2002/bonniepeng2002.github.io",
+  //   color: colors[2],
+  // },
+  // {
+  //   title: "Safe at School",
+  //   subtitle: "Web-based Interactive Game",
+  //   tools: ["HTML/CSS", "JavaScript", "Bootstrap", "Google Webspeech API"],
+  //   desc: (
+  //     <p>
+  //       Safe at School teaches elementary students about the COVID-19 public
+  //       health guidelines through a choose-your-own-adventure style game. 🌎
+  //       <br /> <br />
+  //       As a web-based game, this project was augmented through the use of
+  //       text-to-speech to assist children with difficulty reading. Each scenario
+  //       is narrated thoroughly, which contributed to its award of Best
+  //       Presentation at IgnitionHacks, 2020.
+  //     </p>
+  //   ),
+  //   github: "https://github.com/bonniepeng2002/Safe-At-School",
+  //   link: "https://devpost.com/software/safe-at-school",
+  //   color: colors[3],
+  // },
+  // {
+  //   title: "Missile Command",
+  //   subtitle: "Python Game",
+  //   tools: ["Python", "Turtle Graphics"],
+  //   desc: (
+  //     <p>
+  //       Ah, my first programming project back in my Computer Science class in
+  //       high school. Every programmer has a project like this, and for me it was
+  //       a faithful recreation of Atari's <em>Missile Command</em>, with a few
+  //       graphical tweaks (a lot of color! 🌈).
+  //     </p>
+  //   ),
+  //   github: "https://github.com/bonniepeng2002/Missile-Command",
+  //   color: colors[4],
+  // },
 ];

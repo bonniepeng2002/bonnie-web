@@ -79,11 +79,11 @@ const amazonLogo = <img src="amazon.png" />;
 
 export const experience = [
   {
-    role: "Incoming Software Engineer",
+    role: "Software Development Engineer",
     company: "Amazon",
     time: "May - Aug 2023",
     tools: [],
-    desc: "",
+    desc: "Healthcare Payments team.",
     logo: amazonLogo,
     bgColor: colors.orange,
   },
@@ -100,7 +100,21 @@ export const experience = [
       "Docker",
       "Azure"
     ],
-    desc: "",
+    desc: (
+      <ul>
+        <li>
+          Scripted 10+ data centre management tools in Python resulting in a 
+          highly-scalable Infrastructure as Code web framework, adopted by 50+ financial institutions.
+        </li>
+        <li>
+          Implemented Terraform command execution and custom file editors on the portal 
+          to enhance customizability.
+        </li>
+        <li>
+          Streamlined deployment processes by 3 hours by automating code execution to a virtual machine through Azure DevOps.
+        </li>
+      </ul>
+    ),
     logo: bdoLogo,
     bgColor: colors.pink,
   },

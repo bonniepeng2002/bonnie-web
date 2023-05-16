@@ -6,7 +6,7 @@ const TextLoop = () => {
   const messages = [
     "Made by Bonnie with 💖",
     "Built with TypeScript, React and Scss",
-    "Last Updated: Dec 2022"
+    "Last Updated: May 2023"
   ];
 
   const [message, setMessage] = useState(messages[0]);
