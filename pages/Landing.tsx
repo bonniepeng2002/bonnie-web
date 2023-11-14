@@ -8,7 +8,7 @@ const TextLoop = () => {
   const messages = [
     "a software engineer 👩‍💻",
     "passionate about photography 📸",
-    "a fashion enthusiast 👗",
+    "always on my feet 🤸‍♂️",
     "happy to meet you!",
   ];
   //               pink       purple     green     yellow
