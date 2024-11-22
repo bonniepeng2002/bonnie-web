@@ -1,6 +1,6 @@
 # The Personal Site™ - v2.0
 
-Check it out at [bonniepeng.com](https://www.bonniepeng.com/)!
+Check it out at [bonniepeng2002-github-io.vercel.app](https://bonniepeng2002-github-io.vercel.app/)!
 
 ![landing](https://user-images.githubusercontent.com/64988958/126887197-b9df0c91-6aee-402a-ae39-7adf49881941.png)
 
