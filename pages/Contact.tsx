@@ -1,9 +1,6 @@
 import React from "react";
 import { AttentionSeeker } from "react-awesome-reveal";
 import Header from "../components/header";
-import LinkedIn from "../public/svg/shells/li-shell.svg";
-import Email from "../public/svg/shells/email-shell.svg";
-import Github from "../public/svg/shells/gh-shell.svg";
 import styles from "../styles/Contact.module.scss";
 
 /* <AttentionSeeker effect="bounce"></AttentionSeeker> */
@@ -25,14 +22,22 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/bonniepeng/"
                 target="_blank"
               >
-                <img src={LinkedIn} alt="LinkedIn" className={styles.shell} />
+                <img
+                  src={"/svg/shells/li-shell.svg"}
+                  alt="LinkedIn"
+                  className={styles.shell}
+                />
               </a>
               <a
                 className={styles.github}
                 href="https://github.com/bonniepeng2002"
                 target="_blank"
               >
-                <img src={Github} alt="Github" className={styles.shell} />
+                <img
+                  src={"/svg/shells/gh-shell.svg"}
+                  alt="Github"
+                  className={styles.shell}
+                />
               </a>
             </div>
             <div className={styles.shell_container2}>
@@ -40,7 +45,11 @@ export default function Contact() {
                 className={styles.email}
                 href="mailto:bonnie.peng@uwaterloo.ca"
               >
-                <img src={Email} alt="Email" className={styles.shell} />
+                <img
+                  src={"/svg/shells/email-shell.svg"}
+                  alt="Email"
+                  className={styles.shell}
+                />
               </a>
             </div>
           </div>

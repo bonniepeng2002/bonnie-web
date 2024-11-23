@@ -1,7 +1,4 @@
 import React from "react";
-import pinkJelly from "../public/svg/jellyfish/pink-jellyfish.svg";
-import purpleJelly from "../public/svg/jellyfish/purple-jellyfish.svg";
-import yellowJelly from "../public/svg/jellyfish/yellow-jellyfish.svg";
 import styles from "../styles/JellyfishBtn.module.scss";
 
 interface Props {
@@ -15,7 +12,7 @@ export default function JellyfishButton(props: Props) {
       case "pink":
         return (
           <img
-            src={pinkJelly}
+            src={"/svg/jellyfish/pink-jellyfish.svg"}
             alt="About Me Button"
             className={styles.jellyfish + " undraggable"}
           />
@@ -23,7 +20,7 @@ export default function JellyfishButton(props: Props) {
       case "purple":
         return (
           <img
-            src={purpleJelly}
+            src={"/svg/jellyfish/purple-jellyfish.svg"}
             alt="Experience Button"
             className={styles.jellyfish + " undraggable"}
           />
@@ -31,14 +28,14 @@ export default function JellyfishButton(props: Props) {
       case "yellow":
         return (
           <img
-            src={yellowJelly}
+            src={"/svg/jellyfish/yellow-jellyfish.svg"}
             alt="Contact Button"
             className={styles.jellyfish + " undraggable"}
           />
         );
       default:
         <img
-          src={pinkJelly}
+          src={"/svg/jellyfish/pink-jellyfish.svg"}
           alt="About Me Button"
           className={styles.jellyfish + " undraggable"}
         />;

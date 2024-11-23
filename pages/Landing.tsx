@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Typist from "react-typist";
 import JellyfishButton from "../components/jellyfishBtn";
-import bgCircle from "../public/svg/bg-circle.svg";
 import styles from "../styles/Landing.module.scss";
 
 const TextLoop = () => {
@@ -55,6 +54,7 @@ const TextLoop = () => {
 };
 
 export default function Landing() {
+  const bgCircle = "/svg/bg-circle.svg";
   return (
     <section id="landing" className={styles.landing}>
       <div className={styles.container}>

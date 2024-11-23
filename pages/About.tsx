@@ -1,7 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import Header from "../components/header";
-import me from "../public/me4.jpg";
 import FishExp from "../components/fishExperiences";
 import { p1, p2 } from "../content/about";
 import styles from "../styles/About.module.scss";
@@ -20,7 +19,7 @@ export default function About() {
           </div>
         </Fade>
         <div className={styles.img_container}>
-          <img src={me} alt="Bonnie Peng Profile" className={styles.img}></img>
+          <img src={"/me4.jpg"} alt="Bonnie Peng Profile" className={styles.img}></img>
           <Fade direction="left">
             <div className={styles.fish_container}>
               <FishExp />

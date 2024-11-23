@@ -1,7 +1,5 @@
 import React, { ReactNode, useState } from "react";
 import ProjectHeader from "./projectHeader";
-import chevron from "../public/svg/chevron.svg";
-import github from "../public/svg/github.svg";
 import styles from "../styles/Accordion.module.scss";
 
 interface Props {
@@ -26,7 +24,7 @@ export default function Accordion(props: Props) {
       <div className={styles.summary}>
         <ProjectHeader title={props.title} subtitle={props.subtitle ?? ""} />
         <img
-          src={chevron}
+          src={"/svg/chevron.svg"}
           alt="expand card"
           className={styles.chevron + " undraggable"}
           aria-expanded={expanded}
@@ -37,7 +35,7 @@ export default function Accordion(props: Props) {
         <div className={styles.desc}>{props.children}</div>
         <a className={styles.github} href={props.github} target="_blank">
           <img
-            src={github}
+            src={"/svg/github.svg"}
             alt="go to Github repo"
             className="undraggable"
             width={35}

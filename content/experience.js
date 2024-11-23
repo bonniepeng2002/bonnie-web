@@ -1,10 +1,10 @@
 const colors = {
-  "green": "rgba(166, 231, 127, 0.75)",
-  "blue": "rgba(160, 214, 238, 0.75)",
-  "purple": "rgba(228, 183, 255, 0.75)",
-  "pink": "rgba(229, 146, 191, 0.75)",
-  "orange": "rgba(248, 186, 93, 0.75)"
-}
+  green: "rgba(166, 231, 127, 0.75)",
+  blue: "rgba(160, 214, 238, 0.75)",
+  purple: "rgba(228, 183, 255, 0.75)",
+  pink: "rgba(229, 146, 191, 0.75)",
+  orange: "rgba(248, 186, 93, 0.75)",
+};
 
 // LOGOS
 
@@ -74,15 +74,43 @@ const technovaLogo = (
 const rbcLogo = <img src="rbc.jpg" />;
 const bdoLogo = <img src="bdo.jpg" />;
 const amazonLogo = <img src="amazon.png" />;
+const onepasswordLogo = <img src="1pass.png" />;
+const konradLogo = <img src="konrad.png" />;
 
 // EXPERIENCE
 
 export const experience = [
   {
+    role: "Software Engineer",
+    company: "Konrad Group",
+    time: "May - Aug 2024",
+    tools: [
+      "TypeScript",
+      "Python",
+      "GraphQL",
+      "Prometheus",
+      "Postgres Exporter",
+      "Grafana",
+      "Slack API",
+    ],
+    desc: "KG Play team.",
+    logo: konradLogo,
+    bgColor: colors.orange,
+  },
+  {
+    role: "DevOps Engineer",
+    company: "1Password",
+    time: "Jan - Apr 2024",
+    tools: ["TypeScript", "Python", "Kubernetes", "Helm", "AWS", "TartVM"],
+    desc: "Build and Release team.",
+    logo: onepasswordLogo,
+    bgColor: colors.blue,
+  },
+  {
     role: "Software Development Engineer",
     company: "Amazon",
     time: "May - Aug 2023",
-    tools: [],
+    tools: ["Java", "AWS", "Redjack", "Lumos", "Dagger"],
     desc: "Healthcare Payments team.",
     logo: amazonLogo,
     bgColor: colors.orange,
@@ -98,23 +126,27 @@ export const experience = [
       "Terraform",
       "Flask",
       "Docker",
-      "Azure"
+      "Azure",
     ],
-    desc: (
-      <ul>
-        <li>
-          Scripted 10+ data centre management tools in Python resulting in a 
-          highly-scalable Infrastructure as Code web framework, adopted by 50+ financial institutions.
-        </li>
-        <li>
-          Implemented Terraform command execution and custom file editors on the portal 
-          to enhance customizability.
-        </li>
-        <li>
-          Streamlined deployment processes by 3 hours by automating code execution to a virtual machine through Azure DevOps.
-        </li>
-      </ul>
-    ),
+    desc:
+      // (
+      //   <ul>
+      //     <li>
+      //       Scripted 10+ data centre management tools in Python resulting in a
+      //       highly-scalable Infrastructure as Code web framework, adopted by 50+
+      //       financial institutions.
+      //     </li>
+      //     <li>
+      //       Implemented Terraform command execution and custom file editors on the
+      //       portal to enhance customizability.
+      //     </li>
+      //     <li>
+      //       Streamlined deployment processes by 3 hours by automating code
+      //       execution to a virtual machine through Azure DevOps.
+      //     </li>
+      //   </ul>
+      // )
+      "",
     logo: bdoLogo,
     bgColor: colors.pink,
   },
@@ -129,28 +161,29 @@ export const experience = [
       "Jest",
       "Jenkins",
     ],
-    desc: (
-      <ul>
-        <li>
-          Implemented an end-to-end email decryption and CSV generating feature,
-          reducing manual operations by 5+ hours per use.
-        </li>
-        <li>
-          Automated the emailing of generated CSV files, exceeded project goals
-          by verifying permissions of the receiver for secure data transfers.
-        </li>
-        <li>
-          Developed full-stack administration portal and mobile app enhancements
-          to improve user experience and code scalability, raising efficiency
-          for 70+ employees by 20%.
-        </li>
-        <li>
-          Delivered back-end features in member cohort creation and management,
-          contributing to the app’s re-baselining project and decreasing weekly
-          workload by 7 hours.
-        </li>
-      </ul>
-    ),
+    desc: "",
+    // (
+    //   <ul>
+    //     <li>
+    //       Implemented an end-to-end email decryption and CSV generating feature,
+    //       reducing manual operations by 5+ hours per use.
+    //     </li>
+    //     <li>
+    //       Automated the emailing of generated CSV files, exceeded project goals
+    //       by verifying permissions of the receiver for secure data transfers.
+    //     </li>
+    //     <li>
+    //       Developed full-stack administration portal and mobile app enhancements
+    //       to improve user experience and code scalability, raising efficiency
+    //       for 70+ employees by 20%.
+    //     </li>
+    //     <li>
+    //       Delivered back-end features in member cohort creation and management,
+    //       contributing to the app’s re-baselining project and decreasing weekly
+    //       workload by 7 hours.
+    //     </li>
+    //   </ul>
+    // )
     logo: rbcLogo,
     bgColor: colors.blue,
   },
@@ -159,26 +192,27 @@ export const experience = [
     company: "UW Computer Science Club",
     time: "Feb 2021 - Present",
     tools: ["TypeScript", "React", "MDX", "Next", "Figma"],
-    desc: (
-      <ul>
-        <li>
-          Translated designs into responsive and customizable components,
-          allowing for flexibility and maintainability of the website.
-        </li>
-        <li>
-          Built dynamic and interactive pages of the re-branded website,
-          actively used by 900+ students.
-        </li>
-        <li>
-          Encouraged an inclusive user audience by applying principles of
-          accessible technology, delivering perceivable and operable content.
-        </li>
-        <li>
-          Populated data from dynamically imported files, simplifying the
-          creating and updating of website content.
-        </li>
-      </ul>
-    ),
+    desc: "",
+    // (
+    //   <ul>
+    //     <li>
+    //       Translated designs into responsive and customizable components,
+    //       allowing for flexibility and maintainability of the website.
+    //     </li>
+    //     <li>
+    //       Built dynamic and interactive pages of the re-branded website,
+    //       actively used by 900+ students.
+    //     </li>
+    //     <li>
+    //       Encouraged an inclusive user audience by applying principles of
+    //       accessible technology, delivering perceivable and operable content.
+    //     </li>
+    //     <li>
+    //       Populated data from dynamically imported files, simplifying the
+    //       creating and updating of website content.
+    //     </li>
+    //   </ul>
+    // )
     logo: cscLogo,
     bgColor: colors.green,
   },
@@ -187,28 +221,29 @@ export const experience = [
     company: "TechNova",
     time: "Apr 2021 - Sept 2021",
     tools: ["JavaScript", "React", "SCSS", "Heroku", "Figma"],
-    desc: (
-      <ul>
-        <li>
-          Coordinated the development of 25+ beginner-level workshops to empower
-          students in tech, for the University of Waterloo’s first Women+ in
-          Tech hackathon.
-        </li>
-        <li>
-          Communicated professionally with 15+ volunteers on a bi-weekly basis
-          to meet precise requirements and deadlines, adapting quickly to
-          accommodations.
-        </li>
-        <li>
-          Collaborated with 20 organizers to deliver cross-functional plans and
-          contingencies, seeking better procedures when necessary.
-        </li>
-        <li>
-          Developed the hackathon’s first website using React and SCSS, reaching
-          a traffic of 5000+ visitors per month.
-        </li>
-      </ul>
-    ),
+    desc: "",
+    // (
+    //   <ul>
+    //     <li>
+    //       Coordinated the development of 25+ beginner-level workshops to empower
+    //       students in tech, for the University of Waterloo’s first Women+ in
+    //       Tech hackathon.
+    //     </li>
+    //     <li>
+    //       Communicated professionally with 15+ volunteers on a bi-weekly basis
+    //       to meet precise requirements and deadlines, adapting quickly to
+    //       accommodations.
+    //     </li>
+    //     <li>
+    //       Collaborated with 20 organizers to deliver cross-functional plans and
+    //       contingencies, seeking better procedures when necessary.
+    //     </li>
+    //     <li>
+    //       Developed the hackathon’s first website using React and SCSS, reaching
+    //       a traffic of 5000+ visitors per month.
+    //     </li>
+    //   </ul>
+    // )
     logo: technovaLogo,
     bgColor: colors.purple,
   },

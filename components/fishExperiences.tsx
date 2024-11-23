@@ -1,11 +1,8 @@
 import React from "react";
-import SmallFish from "../public/svg/fish/sm-fish.svg";
-import PinkFish from "../public/svg/fish/pink-fish.svg";
-import YellowFish from "../public/svg/fish/yellow-fish.svg";
-import BlueFish from "../public/svg/fish/blue-fish.svg";
 import styles from "../styles/FishExp.module.scss";
 
 export default function FishExp() {
+  const SmallFish = "/svg/fish/sm-fish.svg";
   return (
     <div className={styles.fish_container}>
       <img className={styles.smFish1 + " undraggable"} src={SmallFish} alt="" />
@@ -16,7 +13,7 @@ export default function FishExp() {
       <div className={styles.exp1}>
         <img
           className={styles.fishImg + " undraggable"}
-          src={PinkFish}
+          src={"/svg/fish/pink-fish.svg"}
           alt=""
         />
       </div>
@@ -24,7 +21,7 @@ export default function FishExp() {
       <div className={styles.exp2}>
         <img
           className={styles.fishImg + " undraggable"}
-          src={YellowFish}
+          src={"/svg/fish/yellow-fish.svg"}
           alt=""
         />
       </div>
@@ -32,7 +29,7 @@ export default function FishExp() {
       <div className={styles.exp3}>
         <img
           className={styles.fishImg + " undraggable"}
-          src={BlueFish}
+          src={"/svg/fish/blue-fish.svg"}
           alt=""
         />
       </div>
